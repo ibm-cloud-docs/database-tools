@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-16"
+  years: 2014, 2018
+lastupdated: "2018-01-26"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,15 +9,13 @@ lastupdated: "2017-11-16"
 
 # MySQL security best practices
 
-## Overview
-
-Many {{site.data.keyword.BluSoftlayer_full}} users rely on {{site.data.keyword.mysql}} for their database solution. Because databases house various important and, at times, sensitive information, it is recommended that you secure {{site.data.keyword.mysql}} databases to protect your information. Security practices for {{site.data.keyword.mysql}} are dependent upon individual needs and business requirements; however, there are best practices that are recommended to get started. Make sure that you align with the following tips to get a head start in securing your {{site.data.keyword.mysql}} database.
+Many {{site.data.keyword.BluSoftlayer_full}} users rely on {{site.data.keyword.mysql}} for their database solution. Because databases house various important and, at times, sensitive information, make sure to secure {{site.data.keyword.mysql}} databases to protect your information. Security practices for {{site.data.keyword.mysql}} are dependent upon individual needs and business requirements; however, there are best practices that are recommended to get started. Make sure that you align with the following tips to get a head start in securing your {{site.data.keyword.mysql}} database.
 
 * Set the root {{site.data.keyword.mysql}} password.
 * Delete the test account and database that were created during the initial installation of {{site.data.keyword.mysql}}.
 * Make sure that each individual {{site.data.keyword.mysql}} account password is set.
 * Grant privileges on an as-needed basis. Avoid granting global privileges unnecessarily.
-* Don't use [wildcards ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://en.wikipedia.org/wiki/Wildcard_character){: new_window} in the hostname value that is associated with accounts.
+* Don't use wildcards in the hostname value that is associated with accounts.
 * Periodically review an account's {{site.data.keyword.mysql}} users and databases to make sure that permissions remain accurate.
 * Don't use passwords in the command line with the command `shell>mysql -u root - password=somepassword mysql`
 
@@ -25,7 +23,7 @@ Many {{site.data.keyword.BluSoftlayer_full}} users rely on {{site.data.keyword.m
 
 ## Additional Resources
 
-There are various resources that provide more details about securing your {{site.data.keyword.mysql}} database. It is recommended that you start with the {{site.data.keyword.mysql}} security guidelines that is based on the version of {{site.data.keyword.mysql}} that is on your device:
+There are various resources that provide more details about securing your {{site.data.keyword.mysql}} database. Start with the {{site.data.keyword.mysql}} security guidelines that are based on the version of {{site.data.keyword.mysql}} that is on your device:
 
 * [{{site.data.keyword.mysql}} Version 5.7 ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://dev.mysql.com/doc/refman/5.7/en/security.html){: new_window}
 
