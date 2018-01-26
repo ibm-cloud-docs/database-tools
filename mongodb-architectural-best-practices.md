@@ -42,9 +42,9 @@ There are several write safety modes that govern how {{site.data.keyword.mongodb
 ## Testing the deployment
 10gen has several tools to help you load test your deployment. A console tool, ‘benchrun’, can run operations from within a JavaScript test harness. Benchrun returns operation information and latency numbers for each operation. If more detailed information is needed about the {{site.data.keyword.mongodb}} instance, consider running the `mongostat` command or MMS to monitor your deployment during the testing. For more information about these tools, see the following references:
 
-[MongoStat Overview](http://docs.mongodb.org/manual/reference/mongostat/)
+[MongoStat Overview ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://docs.mongodb.org/manual/reference/mongostat/){: new_window}
 
-[10gen's {{site.data.keyword.mongodb}} Monitoring Service](http://www.10gen.com/products/mongodb-monitoring-service)
+[10gen's {{site.data.keyword.mongodb}} Monitoring Service ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.10gen.com/products/mongodb-monitoring-service){: new_window}
 
 ## Installation
 You have several considerations when you install {{site.data.keyword.mongodb}} that can help create a stable and performance-oriented solution. 10gen recommends that you use CentOS (64-bit) if possible. Avoid deploying on 32-bit operating systems and Windows operating systems. These systems provide a poor deployment platform. 32-bit operating systems have file size limits that cause problems and Windows can cause performance issues if virtual memory is used by the OS to make up for a lack of RAM in your deployment. By default, {{site.data.keyword.cloud_notm}} provides CentOS 64-bit operating systems for all engineered server deployments.
@@ -63,12 +63,11 @@ It is also recommended that the Journal and Data volumes be distinct physical vo
 ## Operations
 After a {{site.data.keyword.mongodb}} deployment is promoted to production, there are a few recommendations for monitoring and performance optimization. 
 * Make sure that you have the MMS agent running on all instances of {{site.data.keyword.mongodb}}. This helps monitor the health and performance of the deployment. The MMS agent provides useful debugging data to 10gen during support interactions. 
-* The `mongostat` command also provides runtime information about the performance of a MongoDB node.
+* The `mongostat` command also provides runtime information about the performance of a {{site.data.keyword.mongodb}} node.
 
 If either of these tools discover performance issues, sharding or indexing can help to correct these performance issues. 
 
-* Indexes -  Create indexes for a MongoDB deployment if monitoring tools indicate that field-based queries are operating poorly. To help improve performance, always use indexes when you query data that is based on distinct fields.
+* Indexes -  Create indexes for a {{site.data.keyword.mongodb}} deployment if monitoring tools indicate that field-based queries are operating poorly. To help improve performance, always use indexes when you query data that is based on distinct fields.
 * Sharding -  Use sharding when the overall performance of the node suffers because of a large operating data set. Make sure to shard before you get in the red. The system splits chunks only for sharding on insert or update. If you wait too long to shard, you can have uneven distribution. 
 
 
-These best practices do not represent every possible scenario that you might encounter. It is always best to use the 10gen subscription to access support directly from 10gen, or use the documentation on the MongoDB website to help with specific issues and concerns that you might have.
