@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-13"
+  years: 2014, 2018
+lastupdated: "2018-01-26"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,12 +9,10 @@ lastupdated: "2017-11-13"
 
 # Configuring MongoDB networking
 
-## Overview
-
 {{site.data.keyword.Bluemix}} engineered servers with {{site.data.keyword.mongodb}} installed are configured to have {{site.data.keyword.mongodb}} bound to the private network IP address. This is by the recommendation of 10gen, and it serves to minimize the security risks of having an open, accessible {{site.data.keyword.mongodb}} instance exposed publicly upon deployment. 
 {:shortdesc}
 
-## Changing the Bound Interface
+## Changing the bound interface
 
 {{site.data.keyword.mongodb}} can be configured to bound to any interface by changing the `‘bind_ip’` attribute in the `/etc/mongod.conf` file in your installation as shown:
 
