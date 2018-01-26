@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-15"
+  years: 2014, 2018
+lastupdated: "2018-01-26"
 ---
 
 {:shortdesc: .shortdesc}
@@ -10,7 +10,7 @@ lastupdated: "2017-11-15"
 
 # Backing up MySQL in Linux
 
-## Copy from the mysql directory
+## Copy from the MySQL directory
 
 By default, {{site.data.keyword.mysql}} databases on Linux servers are stored in the following directory:
 
@@ -34,7 +34,7 @@ The following is an example command that you use to back up a database that is n
 
 `mysqldump example > /backup/example_backup.sql`
 
-Unless it is a small database, it is recommended that you then compress the database backup to reduce the amount of time to transfer the backup. The following command compresses the backup of the example database:
+Unless it is a small database, then compress the database backup to reduce the amount of time to transfer the backup. The following command compresses the backup of the example database:
 
 `tar czvf /backup/example_backup.tar.gz /backup./example_backup.sql`
 
