@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-15"
+  years: 2014, 2018
+lastupdated: "2018-01-26"
 ---
 
 {:shortdesc: .shortdesc}
@@ -10,7 +10,7 @@ lastupdated: "2017-11-15"
 
 # 在 Linux 中備份 MySQL
 
-## 從 mysql 目錄中複製
+## 從 MySQL 目錄中複製
 
 依預設，Linux 伺服器上的 {{site.data.keyword.mysql}} 資料庫會儲存至下列目錄：
 
@@ -34,7 +34,7 @@ cp 指令的 -R 參數表示遞迴，而使用的原因是每一個資料庫都�
 
 `mysqldump example > /backup/example_backup.sql`
 
-除非它是小型資料庫，否則建議您接著壓縮資料庫備份，以減少備份傳送時間量。下列指令會壓縮範例資料庫的備份：
+除非它是小型資料庫，否則請接著壓縮資料庫備份，以減少備份傳送時間量。下列指令會壓縮範例資料庫的備份：
 
 `tar czvf /backup/example_backup.tar.gz /backup./example_backup.sql`
 

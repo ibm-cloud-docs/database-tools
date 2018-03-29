@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-16"
+  years: 2014, 2018
+lastupdated: "2018-01-26"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,8 +9,6 @@ lastupdated: "2017-11-16"
 
 
 # 設定 MongoDB Monitoring Service (MMS)
-
-## 概觀
 
 在完成 {{site.data.keyword.mongodb}} 解決方案之後，可以設定抄本集中的主機，以使用 10gen 的免費 {{site.data.keyword.mongodb}} Monitoring Service (MMS)。您可以使用此監視服務來查看已抄寫資料庫的詳細技術分析。您需要有 MMS API 金鑰及秘密金鑰才能開始使用，這些金鑰是透過在 [10gen MMS 登錄網站 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://www.10gen.com/mongodb-monitoring-service){: new_window} 上登錄帳戶而取得。
 {:shortdesc}

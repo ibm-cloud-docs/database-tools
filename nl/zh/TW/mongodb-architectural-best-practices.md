@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-27"
+  years: 2014, 2018
+lastupdated: "2018-01-26"
 ---
 
 {:shortdesc: .shortdesc}
@@ -12,31 +12,25 @@ lastupdated: "2017-11-27"
 使用下列最佳作法，以在 {{site.data.keyword.cloud}} 的部署中使用 {{site.data.keyword.mongodb}}。如果您選取工程伺服器，則已實作其中數個建議。 
 
 ## 部署策略
-
 規劃 {{site.data.keyword.mongodb}} 的部署時，您需要考慮數個重要區域。最重要的是現行及預期的資料集大小。這兩個區域是您選擇的個別實體節點資源需求的主要動機，並引導進行 Shard 處理方案。您也需要考量資料重要性，以及您對遺失或落後資料的容忍程度（特別是抄寫的情境）。 
-## 記憶體大小
 
+## 記憶體大小
 資料集位於記憶體時，{{site.data.keyword.mongodb}}（例如許多資料導向的應用程式）運作良好。沒有比執行不需要磁碟 I/O 的 {{site.data.keyword.mongodb}} 實例更適合的。盡可能，選取可用 RAM 多於工作資料集大小的平台。如果您的資料集超過單一節點的可用 RAM，則請考慮利用 Shard 處理。Shard 處理可增加叢集中的可用 RAM 數量，以容納較大的資料集。因此，您可以最大化整體部署效能。分頁錯誤可能表示您可能超出部署中的可用 RAM。您需要考量增加可用 RAM。
 
 ## 磁碟類型
-
 如果速度不是重點，或您的資料集大於可用記憶體策略可支援的大小，則部署的適當磁碟類型十分重要。IOPS 是選取磁碟類型的關鍵。IOPS 越高，{{site.data.keyword.mongodb}} 的效能就越好。因為網路儲存空間可能導致部署的高延遲及效能不佳，所以如果可能的話，需要使用本端磁碟。建議您將 RAID 10 用於磁碟陣列。
 
 ## CPU
-
 如果您要使用 map-reduce，則需要考量時鐘速度及可用處理器數目。不過，當您使用記憶體中的大部分資料執行 {{site.data.keyword.mongodb}} 實例時，時鐘速度可能會影響效能。如果您的系統在這些情況下執行，而且您要最大化每秒的作業數目，請考量包括具有高時鐘/匯流排速度的 CPU 的部署策略。
 
 ## 抄寫
-
 如果叢集中的節點失敗，則抄寫可提供資料的高可用性。建議您在任何 {{site.data.keyword.mongodb}} 部署中進行至少三個節點的抄寫。含三個節點的抄寫的最常見配置是 2x1 部署，即單一資料中心內有兩個主要節點，而次要資料中心內有一部備用伺服器。
 
 
 ## Shard 處理
-
 如果您預期是大型資料集，則建議部署已 Shard 處理的 {{site.data.keyword.mongodb}} 部署。您可以使用 Shard 處理，將資料集分割到多個節點。{{site.data.keyword.mongodb}} 可以自動將資料配送到叢集中的節點。或者，您可以定義 Shard 索引鍵，並建立該索引鍵的範圍型 Shard 處理。Shard 處理有助於寫入效能，因此您可以進行 Shard 處理，即使資料集很小但需要大量更新或插入。當您部署已 Shard 處理的集合時，{{site.data.keyword.mongodb}} 只需要三個配置伺服器實例，即特殊化 Mongo 運行環境以追蹤現行 Shard 配置。遺失其中一個節點會導致叢集進入僅限配置的唯讀模式，而且需要所有節點都再度上線，才能進行任何配置變更。
 
 ## 寫入安全模式
-
 有數個寫入安全模式可控管 {{site.data.keyword.mongodb}} 如何處理將資料持續保存至磁碟。請務必考量哪一種策略最符合您的資料完整性及效能需求。您有下列寫入安全模式可用：
 
 * **無** – 提供非封鎖的延遲寫入策略，有助於達到高效能。不過，節點有極小的機會會失效，而且資料可能會遺失。寫入至叢集的其中一個節點的資料也可能無法在該叢集的所有節點上立即可用，來達成讀取一致性。「無」模式未提供網路失敗的任何資料保護。此模式高度不可靠，而且只有在效能是優先考量而資料完整性不重要時才能使用。
@@ -46,15 +40,13 @@ lastupdated: "2017-11-27"
 * **Fsync** – 提供最高的資料完整性層次，並封鎖直到實體寫入資料為止。使用 Fsync 附帶效能退化，而且只有在資料完整性是應用程式的主要重點時才能使用它。
 
 ## 測試部署
-
 10gen 有數個工具可協助您負載測試部署。主控台工具 'benchrun' 可以從 JavaScript 測試控制工具執行作業。Benchrun 會傳回作業資訊，以及每一個作業的延遲數目。如果需要 {{site.data.keyword.mongodb}} 實例的其他詳細資訊，請考慮在測試期間執行 `mongostat` 指令或 MMS 來監視部署。如需這些工具的相關資訊，請參閱下列參照：
 
-[MongoStat 概觀](http://docs.mongodb.org/manual/reference/mongostat/)
+[MongoStat 概觀 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://docs.mongodb.org/manual/reference/mongostat/){: new_window}
 
-[10gen 的 {{site.data.keyword.mongodb}} 監視服務](http://www.10gen.com/products/mongodb-monitoring-service)
+[10gen 的 {{site.data.keyword.mongodb}} 監視服務 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://www.10gen.com/products/mongodb-monitoring-service){: new_window}
 
 ## 安裝
-
 當您安裝有助於建立穩定及效能導向解決方案的 {{site.data.keyword.mongodb}} 時，有數個考量。10gen 建議您使用 CentOS（64 位元）（如果可能的話）。請避免部署於 32 位元作業系統及 Windows 作業系統。這些系統提供欠佳的部署平台。如果 OS 使用虛擬記憶體來彌補部署中的 RAM 不足，則 32 位元作業系統的檔案大小限制會導致問題，而且 Windows 可能會導致效能問題。依預設，{{site.data.keyword.cloud_notm}} 提供 CentOS 64 位元作業系統進行所有工程伺服器部署。
 
 此外，請確定您對基礎 OS 安裝進行下列變更，以最大化效能：
@@ -69,16 +61,13 @@ lastupdated: "2017-11-27"
 同時建議使用「日誌登載」及「資料」磁區作為特殊實體磁區。如果「日誌登載」及「資料」目錄位在單一實體磁區上，則清除至「日誌登載」會岔斷資料存取，並提供 {{site.data.keyword.mongodb}} 部署內的高延遲驟增。
 
 ## 作業
-
 將 {{site.data.keyword.mongodb}} 部署提升至正式作業之後，會有一些監視及效能最佳化的建議。 
 * 確定您已在所有 {{site.data.keyword.mongodb}} 實例上執行 MMS 代理程式。這有助於監視部署的性能及效能。MMS 代理程式會在支援互動期間將有用的除錯資料提供給 10gen。 
-* `mongostat` 指令也提供有關 MongoDB 節點效能的運行環境資訊。
+* `mongostat` 指令也提供有關 {{site.data.keyword.mongodb}} 節點效能的運行環境資訊。
 
 如果任一個工具發現效能問題，則 Shard 處理或編製索引有助於更正這些效能問題。 
 
-* 索引 - 如果監視工具指出欄位型查詢的運作不佳，則會針對 MongoDB 部署建立索引。為了協助改善效能，請一律在您查詢基於特殊欄位的資料時使用索引。
+* 索引 - 如果監視工具指出欄位型查詢的運作不佳，則會針對 {{site.data.keyword.mongodb}} 部署建立索引。為了協助改善效能，請一律在您查詢基於特殊欄位的資料時使用索引。
 * Shard 處理 - 節點的整體效能因大型運作中資料集而變差時，請使用 Shard 處理。在您無法再進行之前，請務必進行 Shard 處理。只有在插入或更新時，系統才會分割片段以進行 Shard 處理。如果您在進行 Shard 處理時等待太長的時間，則可能分佈不平均。 
 
-## 結論
 
-這些最佳作法不代表每個您可能遇到的情境。一律最好使用 10gen 訂閱直接從 10gen 存取支援，或使用 MongoDB 網站上的文件協助解決您可能遇到的特定問題及利害關係。

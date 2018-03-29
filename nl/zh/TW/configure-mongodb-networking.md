@@ -1,15 +1,13 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-13"
+  years: 2014, 2018
+lastupdated: "2018-01-26"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # 配置 MongoDB 網路
-
-## 概觀
 
 已將安裝 {{site.data.keyword.mongodb}} 的 {{site.data.keyword.Bluemix}} 工程伺服器配置成讓 {{site.data.keyword.mongodb}} 連結至專用網路 IP 位址。這是 10gen 的建議，其作用是最小化在部署時公開給大眾使用的開放式可存取 {{site.data.keyword.mongodb}} 實例的安全風險。
 {:shortdesc}

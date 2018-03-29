@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-11-20"
+  years: 2017, 2018
+lastupdated: "2018-01-29"
 
 
 ---
@@ -22,6 +22,6 @@ lastupdated: "2017-11-20"
 | 開始使用       |
 |:------------------|
 | __ 1. 進一步瞭解[資料庫工具](database-tools-about.html)。|
-| __ 2. 進一步瞭解 [{{site.data.keyword.mongodb}}](mongodb-topic-description.html)、[Riak](riak.html) 及 [{{site.data.keyword.mysql}}](postgresql-security-best-practices.html)。|
-| __ 3. 如果您尚未佈建虛擬伺服器，請參閱[開始使用虛擬伺服器](docs/vsi/vsi_index.html)。|
+| __ 2. 進一步瞭解 [{{site.data.keyword.mongodb}}](mongodb-topic-description.html)、[Riak](riak.html) 及 [{{site.data.keyword.mysql}}](mysql-security-best-practices.html)。|
+| __ 3. 如果您尚未佈建虛擬伺服器，請參閱[開始使用虛擬伺服器](/docs/vsi/vsi_index.html)。|
 {: caption="表 1. 開始使用資料庫工具" caption-side="top"}

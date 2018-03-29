@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-10-16"
+  years: 2014, 2018
+lastupdated: "2018-01-26"
 ---
 
 {:shortdesc: .shortdesc}
@@ -17,11 +17,11 @@ lastupdated: "2017-10-16"
 
 * **Noatime** - 新增 noatime 讓系統不需要寫入至要讀取之檔案的檔案系統，這表示檔案存取速度會較快，且磁碟磨損會較少。
 
-* **在 BIOS 中關閉 NUMA** - Linux、NUMA 及 {{site.data.keyword.mongodb}} 傾向不要一起運作。如果您在 NUMA 硬體上執行 {{site.data.keyword.mongodb}}，則建議將它關閉（使用交錯記憶體原則執行）。問題可能會以奇怪的方式出現，例如一段時間的明顯變慢或是高系統 CPU 時間。
+* **在 BIOS 中關閉 NUMA** - Linux、NUMA 及 {{site.data.keyword.mongodb}} 傾向不要一起運作。如果您在 NUMA 硬體上執行 {{site.data.keyword.mongodb}}，請將它關閉（使用交錯記憶體原則執行）。問題可能會以奇怪的方式出現，例如一段時間的明顯變慢或是高系統 CPU 時間。
 
-* **ulimit** - 已開啟檔案的 ulimit 設為 64000，而使用者處理程序的 ulimit 則設為 32000。這些限制可防止因遺失可用檔案控點或使用者處理程序所造成的失敗。
+* **ulimit** - 已開啟檔案的 ulimit 設為 64,000，而使用者處理程序的 ulimit 則設為 32,000。這些限制可防止因遺失可用檔案控點或使用者處理程序所造成的失敗。
 
-* **EXT4** - 優先選取 Ext4，而非 ext3。在配置檔案（或移除它們）時，ext3 可能太慢，而且大型檔案內的存取也不佳。
+* **EXT4** - 優先選取 Ext4，而非 Ext3。在配置檔案（或移除它們）時，ext3 可能太慢，而且大型檔案內的存取也不佳。
 
 * **不同的日誌登載磁區** - 在 10gen 的建議下，{{site.data.keyword.cloud_notm}} 會使用針對日誌登載所裝載的不同 SSD 磁區。這可以在較高端工程伺服器上使用，並防止日誌登載干擾資料裝載的讀寫作業。
 
