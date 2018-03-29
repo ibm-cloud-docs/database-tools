@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-13"
+  years: 2014, 2018
+lastupdated: "2018-01-26"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,9 +9,7 @@ lastupdated: "2017-11-13"
 
 # Configuration de la mise en réseau MongoDB
 
-## Présentation
-
-Les serveurs {{site.data.keyword.Bluemix}} ayant fait l'objet d'une ingénierie sur lesquels {{site.data.keyword.mongodb}} est installé sont configurés de manière à lier {{site.data.keyword.mongodb}} à l'adresse IP du réseau privé. Cette configuration répond à la recommandation 10gen et permet de réduire les risques de sécurité liés à la présence d'une instance {{site.data.keyword.mongodb}} ouverte accessible exposée au public au moment du déploiement.
+Les serveurs {{site.data.keyword.Bluemix}} ayant fait l'objet d'une ingénierie sur lesquels {{site.data.keyword.mongodb}} est installé sont configurés de manière à lier {{site.data.keyword.mongodb}} à l'adresse IP du réseau privé. Cette configuration répond à la recommandation 10gen et permet de réduire les risques de sécurité liés à la présence d'une instance {{site.data.keyword.mongodb}} ouverte accessible exposée au public au moment du déploiement. 
 {:shortdesc}
 
 ## Modification de l'interface liée

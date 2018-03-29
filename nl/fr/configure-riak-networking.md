@@ -1,16 +1,14 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-15"
+  years: 2014, 2018
+lastupdated: "2018-01-26"
 ---
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Configuration de la mise en réseau Riak
 
-## Présentation
-
-Lorsque vous installez Riak sur un serveur {{site.data.keyword.Bluemix}} ayant fait l'objet d'une ingénierie, Riak est lié à l'[adresse IP du réseau privé ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://www.softlayer.com/about/datacenters/rack-architecture){: new_window}. La liaison de Riak réduit les risques de sécurité liés à la présence d'une instance Riak ouverte accessible exposée au public au moment du déploiement. L'adresse IP liée à Riak est modifiable à tout moment. **Remarque :** Riak ne doit pas être ouvertement exposé à des interfaces publiques sans avoir mis en place des mesures de sécurité supplémentaires afin de limiter les accès externes à l'instance (par exemple, pare-feux et iptables).
+Lorsque vous installez Riak sur un serveur {{site.data.keyword.Bluemix}} ayant fait l'objet d'une ingénierie, Riak est lié à l'[adresse IP du réseau privé ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://www.softlayer.com/about/datacenters/rack-architecture){: new_window}. La liaison de Riak réduit les risques de sécurité liés à la présence d'une instance Riak ouverte accessible exposée au public au moment du déploiement. L'adresse IP liée à Riak est modifiable à tout moment. **Remarque :** Riak ne doit pas être ouvertement exposé à des interfaces publiques sans avoir mis en place des mesures de sécurité supplémentaires afin de limiter les accès externes à l'instance (par exemple, pare-feux et iptables). 
 {:shortdesc}
 
 Pour configurer la mise en réseau Riak afin d'établir une liaison à une nouvelle interface, procédez comme suit.
@@ -25,4 +23,4 @@ Pour configurer la mise en réseau Riak afin d'établir une liaison à une nouve
 
 ## Etapes suivantes
 
-Les modifications apportées à la liaison impactent toutes les liaisons précédentes à toutes les interfaces associées à l'instance Riak. Après redémarrage, l'adresse IP de liaison est mise à jour et fonctionne correctement. Si la liaison ne s'effectue pas correctement après redémarrage de l'instance Riak, contactez le [Support](/general/support.html).
+Les modifications apportées à la liaison impactent toutes les liaisons précédentes à toutes les interfaces associées à l'instance Riak. Après redémarrage, l'adresse IP de liaison est mise à jour et fonctionne correctement. Si la liaison ne s'effectue pas correctement après redémarrage de l'instance Riak, contactez le [Support](/docs/get-support/getstarttssup.html).

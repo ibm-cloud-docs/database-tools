@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-16"
+  years: 2014, 2018
+lastupdated: "2018-01-26"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,8 +9,6 @@ lastupdated: "2017-11-16"
 
 
 # Configuration du service de surveillance MongoDB (MMS)
-
-## Présentation
 
 Une fois la solution {{site.data.keyword.mongodb}} terminée, les hôtes du jeu de répliques peuvent être configurés de manière à fonctionner avec le service {{site.data.keyword.mongodb}} Monitoring Service (MMS) gratuit de 10gen. Vous pouvez utiliser ce service de surveillance pour obtenir une analyse technique détaillée de la base de données répliquée. Pour démarrer, vous avez besoin de la clé secrète et de la clé d'API MMS, que vous obtenez en enregistrant un compte sur le site Web d'enregistrement de [10gen MMS ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://www.10gen.com/mongodb-monitoring-service){: new_window}.
 {:shortdesc}

@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-10-16"
+  years: 2014, 2018
+lastupdated: "2018-01-26"
 ---
 
 {:shortdesc: .shortdesc}
@@ -17,11 +17,11 @@ Les modifications suivantes ont été apportées afin d'améliorer les performan
 
 * **Noatime** - l'ajout de ce paramètre évite au système d'avoir à écrire dans le système de fichiers les fichiers lus, de sorte que l'accès aux fichier est plus rapide et l'usure des disques est moindre.
 
-* **NUMA off in BIOS** - Linux, NUMA et {{site.data.keyword.mongodb}} ne fonctionnent généralement pas ensemble. Si vous exécutez {{site.data.keyword.mongodb}} sur un matériel NUMA, il est recommandé de désactiver NUMA (exécution avec une stratégie de mémoire imbriquée). Des problèmes étranges peuvent se produire, par exemple, des ralentissements importants sur certaines périodes de temps ou un temps UC extrêmement élevé.
+* **NUMA off in BIOS** - Linux, NUMA et {{site.data.keyword.mongodb}} ne fonctionnent généralement pas ensemble. Si vous exécutez {{site.data.keyword.mongodb}} sur un matériel NUMA, désactivez NUMA (exécution avec une stratégie de mémoire imbriquée). Des problèmes étranges peuvent se produire, par exemple, des ralentissements importants sur certaines périodes de temps ou un temps UC extrêmement élevé.
 
-* **Ulimit** – ce paramètre est défini sur 64000 pour les fichiers ouverts et 32000 pour les processus utilisateur. Ces valeurs ulimit protègent des échecs dus à une perte de processus utilisateur ou de descripteurs de fichier disponibles.
+* **Ulimit** – ulimit est défini sur 64 000 pour les fichiers ouverts et 32 000 pour les processus utilisateur. Ces valeurs ulimit protègent des échecs dus à une perte de processus utilisateur ou de descripteurs de fichier disponibles.
 
-* **EXT4** – Ext4 est préféré à ext3. Ext3 peut être lent à allouer des fichiers (ou à en supprimer) et l'accès aux gros fichiers est également peu performant.
+* **EXT4** – Ext4 est préféré à Ext3. Ext3 peut être lent à allouer des fichiers (ou à en supprimer) et l'accès aux gros fichiers est également peu performant.
 
 * **Separate Journal Volume** – selon les préconisation de 10gen, {{site.data.keyword.cloud_notm}} utilise un volume SSD distinct monté pour le journal. Cette option est disponible pour les serveurs des toutes dernières versions ayant fait l'objet d'une ingénierie et évite que la journalisation interfère avec les opérations de lecture/écriture sur le montage de données.
 

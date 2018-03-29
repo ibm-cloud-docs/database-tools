@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-16"
+  years: 2014, 2018
+lastupdated: "2018-01-26"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,15 +9,13 @@ lastupdated: "2017-11-16"
 
 # Meilleures pratiques en matière de sécurité MySQL
 
-## Présentation
-
-Bon nombre d'utilisateurs d'{{site.data.keyword.BluSoftlayer_full}} s'appuient sur {{site.data.keyword.mysql}} pour leur solution de base de données. Etant données que les bases de données abritent diverses informations importantes et, parfois, sensibles, nous vous recommandons de sécuriser vos bases de données {{site.data.keyword.mysql}} afin de protéger vos informations. Les pratiques en matière de sécurité pour {{site.data.keyword.mysql}} dépendent des besoins individuels et des impératifs métier, mais il existe toutefois des pratiques à privilégier pour démarrer. Assurez-vous de respecter les conseils suivants pour prendre une longueur d'avance s'agissant de la sécurité de votre base de données {{site.data.keyword.mysql}}.
+Bon nombre d'utilisateurs d'{{site.data.keyword.BluSoftlayer_full}} s'appuient sur {{site.data.keyword.mysql}} pour leur solution de base de données. Etant données que les bases de données abritent diverses informations importantes et, parfois, sensibles, veillez à sécuriser vos bases de données {{site.data.keyword.mysql}} afin de protéger vos informations. Les pratiques en matière de sécurité pour {{site.data.keyword.mysql}} dépendent des besoins individuels et des impératifs métier, mais il existe toutefois des pratiques à privilégier pour démarrer. Assurez-vous de respecter les conseils suivants pour prendre une longueur d'avance s'agissant de la sécurité de votre base de données {{site.data.keyword.mysql}}.
 
 * Définissez le mot de passe root {{site.data.keyword.mysql}}.
 * Supprimez la base de données et le compte de test créés au moment de l'installation initiale de {{site.data.keyword.mysql}}.
 * Vérifiez que chaque mot de passe de compte {{site.data.keyword.mysql}} individuel est défini.
 * Accordez des privilèges en fonction des besoins. Evitez d'accorder inutilement des privilèges globaux.
-* N'utilisez pas de [caractères génériques ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://en.wikipedia.org/wiki/Wildcard_character){: new_window} dans la valeur de nom d'hôte associée aux comptes.
+* N'utilisez pas de caractères génériques dans la valeur de nom d'hôte associée aux comptes.
 * Vérifiez régulièrement les bases de données et les utilisateurs {{site.data.keyword.mysql}} d'un compte pour vous assurer que les droits accordés sont toujours pertinents.
 * N'utilisez pas de mots de passe dans la ligne de commande avec la commande `shell>mysql -u root - password=somepassword mysql`
 
@@ -25,7 +23,7 @@ Bon nombre d'utilisateurs d'{{site.data.keyword.BluSoftlayer_full}} s'appuient s
 
 ## Ressources supplémentaires
 
-Diverses autres ressources fournissent plus de détails sur la sécurisation de votre base de données {{site.data.keyword.mysql}}. Il est recommandé de démarrer par les directives de sécurité {{site.data.keyword.mysql}} concernant la version {{site.data.keyword.mysql}} installée sur votre unité :
+Diverses autres ressources fournissent plus de détails sur la sécurisation de votre base de données {{site.data.keyword.mysql}}. Commencez par les directives de sécurité {{site.data.keyword.mysql}} concernant la version {{site.data.keyword.mysql}} installée sur votre unité :
 
 * [{{site.data.keyword.mysql}} version 5.7 ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://dev.mysql.com/doc/refman/5.7/en/security.html){: new_window}
 

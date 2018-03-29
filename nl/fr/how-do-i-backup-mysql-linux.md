@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-15"
+  years: 2014, 2018
+lastupdated: "2018-01-26"
 ---
 
 {:shortdesc: .shortdesc}
@@ -10,7 +10,7 @@ lastupdated: "2017-11-15"
 
 # Sauvegarde de MySQL sous Linux
 
-## Copie depuis le répertoire mysql
+## Copie depuis le répertoire MySQL
 
 Par défaut, les bases de données {{site.data.keyword.mysql}} des serveurs Linux sont stockées dans le répertoire suivant :
 
@@ -34,7 +34,7 @@ L'exemple de commande suivant permet de sauvegarder une base de données nommée
 
 `mysqldump example > /backup/example_backup.sql`
 
-Sauf s'il s'agit d'une petite base de données, il est recommandé de compresser la sauvegarde de la base de données afin de réduire le temps nécessaire au transfert de la sauvegarde. La commande suivante compresse la sauvegarde de l'exemple de base de données :
+Sauf s'il s'agit d'une petite base de données, compressez la sauvegarde de la base de données afin de réduire le temps nécessaire à son transfert. La commande suivante compresse la sauvegarde de l'exemple de base de données :
 
 `tar czvf /backup/example_backup.tar.gz /backup./example_backup.sql`
 
