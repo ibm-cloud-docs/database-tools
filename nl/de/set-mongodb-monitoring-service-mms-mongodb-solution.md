@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-16"
+  years: 2014, 2018
+lastupdated: "2018-01-26"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,8 +9,6 @@ lastupdated: "2017-11-16"
 
 
 # MongoDB Monitoring Service (MMS) einrichten
-
-## Übersicht
 
 Nachdem Sie Ihre {{site.data.keyword.mongodb}}-Lösung vollständig eingerichtet haben, können die Hosts in der Replikatgruppe so konfiguriert werden, dass sie mit dem kostenlosen {{site.data.keyword.mongodb}} Monitoring Service (MMS) von 10gen verwendet werden können. Mit diesem Überwachungsservice können Sie detaillierte technische Analysen der replizierten Datenbank anzeigen. Als Erstes benötigen Sie den API-Schlüssel und den geheimen Schlüssel für MMS, die durch die Registrierung eines Kontos auf der [10gen-Website für die MMS-Registrierung ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://www.10gen.com/mongodb-monitoring-service){: new_window} abgerufen werden können.
 {:shortdesc}

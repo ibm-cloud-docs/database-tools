@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-15"
+  years: 2014, 2018
+lastupdated: "2018-01-26"
 ---
 
 {:shortdesc: .shortdesc}
@@ -10,7 +10,7 @@ lastupdated: "2017-11-15"
 
 # Sicherungskopie für MySQL unter Linux erstellen
 
-## Aus dem Verzeichnis 'mysql' kopieren
+## Aus dem MySQL-Verzeichnis kopieren
 
 Standardmäßig werden {{site.data.keyword.mysql}}-Datenbanken auf Linux-Servern im folgenden Verzeichnis gespeichert:
 
@@ -34,7 +34,7 @@ Nachfolgend finden Sie ein Beispielbefehl, mit dem Sie ein Backup für eine Date
 
 `mysqldump example > /backup/example_backup.sql`
 
-Wenn es sich nicht um eine kleine Datenbank handelt, wird empfohlen, dass Sie das Datenbankbackup komprimieren, um die Übertragungszeit für das Backup zu reduzieren. Mit dem folgenden Befehl kann das Backup der Beispieldatenbank komprimiert werden:
+Wenn es sich nicht um eine kleine Datenbank handelt, komprimieren Sie dann das Datenbankbackup, um die Übertragungszeit für das Backup zu reduzieren. Mit dem folgenden Befehl kann das Backup der Beispieldatenbank komprimiert werden:
 
 `tar czvf /backup/example_backup.tar.gz /backup./example_backup.sql`
 

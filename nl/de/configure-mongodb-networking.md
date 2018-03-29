@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-13"
+  years: 2014, 2018
+lastupdated: "2018-01-26"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,9 +9,8 @@ lastupdated: "2017-11-13"
 
 # MongoDB-Netz konfigurieren
 
-## Übersicht
-
-Für {{site.data.keyword.Bluemix}} optimierte Server, auf denen {{site.data.keyword.mongodb}} installiert ist, sind so konfiguriert, dass {{site.data.keyword.mongodb}} an die private IP-Netzadresse gebunden ist. Durch diese von 10gen empfohlene Bindung werden die Sicherheitsrisiken in Bezug auf eine offene und durch die Bereitstellung öffentlich zugängliche {{site.data.keyword.mongodb}}-Instanz minimiert. {:shortdesc}
+Für {{site.data.keyword.Bluemix}} optimierte Server, auf denen {{site.data.keyword.mongodb}} installiert ist, sind so konfiguriert, dass {{site.data.keyword.mongodb}} an die private IP-Netzadresse gebunden ist. Durch diese von 10gen empfohlene Bindung werden die Sicherheitsrisiken in Bezug auf eine offene und durch die Bereitstellung öffentlich zugängliche {{site.data.keyword.mongodb}}-Instanz minimiert. 
+{:shortdesc}
 
 ## Gebundene Schnittstelle ändern
 
