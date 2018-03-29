@@ -1,16 +1,14 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-15"
+  years: 2014, 2018
+lastupdated: "2018-01-26"
 ---
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Configuración de redes Riak
 
-## Visión general
-
-Cuando se instala Riak en un servidor de ingeniería de {{site.data.keyword.Bluemix}}, Riak se vincula a la [dirección IP de red privada ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://www.softlayer.com/about/datacenters/rack-architecture){: new_window}. Enlazar Riak minimiza los riesgos de seguridad de tener una instancia abierta y accesible de Riak expuesta públicamente en el despliegue. En cualquier momento, la dirección IP vinculada a Riak puede modificarse. **Nota:** Riak no debe exponerse abiertamente en interfaces públicas sin otras medidas de seguridad en lugar de limitar el acceso externo a la instancia (por ejemplo, cortafuegos e iptables).
+Cuando se instala Riak en un servidor de ingeniería de {{site.data.keyword.Bluemix}}, Riak se vincula a la [dirección IP de red privada ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://www.softlayer.com/about/datacenters/rack-architecture){: new_window}. Enlazar Riak minimiza los riesgos de seguridad de tener una instancia abierta y accesible de Riak expuesta públicamente en el despliegue. En cualquier momento, la dirección IP vinculada a Riak puede modificarse. **Nota:** Riak no debe exponerse abiertamente en interfaces públicas sin otras medidas de seguridad en lugar de limitar el acceso externo a la instancia (por ejemplo, cortafuegos e iptables). 
 {:shortdesc}
 
 Complete los pasos siguientes para configurar la red de Riak para enlazar a una nueva interfaz.
@@ -25,4 +23,4 @@ Complete los pasos siguientes para configurar la red de Riak para enlazar a una 
 
 ## Pasos siguientes
 
-Los cambios realizados al enlace afectan a todos los enlaces anteriores a cualquier interfaz asociada con la instancia de Riak. Tras el reinicio, la dirección IP enlazada se actualizará y funcionará correctamente. Si reinicia la instancia de Riak y no resulta en un enlace satisfactorio, póngase en contacto con [Soporte](/general/support.html).
+Los cambios realizados al enlace afectan a todos los enlaces anteriores a cualquier interfaz asociada con la instancia de Riak. Tras el reinicio, la dirección IP enlazada se actualizará y funcionará correctamente. Si reinicia la instancia de Riak y no resulta en un enlace satisfactorio, póngase en contacto con [Soporte](/docs/get-support/getstarttssup.html).

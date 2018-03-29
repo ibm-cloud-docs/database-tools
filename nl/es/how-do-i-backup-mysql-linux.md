@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-15"
+  years: 2014, 2018
+lastupdated: "2018-01-26"
 ---
 
 {:shortdesc: .shortdesc}
@@ -10,7 +10,7 @@ lastupdated: "2017-11-15"
 
 # Copia de seguridad de MySQL en Linux
 
-## Copiar desde el directorio de mysql
+## Copiar desde el directorio de MySQL
 
 De forma predeterminada, las bases de datos de {{site.data.keyword.mysql}} en servidores Linux se almacenan en el directorio siguiente:
 
@@ -34,7 +34,7 @@ A continuación se muestra un mandato de ejemplo que puede utilizar para realiza
 
 `mysqldump example > /backup/example_backup.sql`
 
-A menos que sea una base de datos pequeña, se recomienda comprimir la copia de seguridad de la base de datos para reducir la cantidad de tiempo para la transferencia de la copia de seguridad. El mandato siguiente comprime la copia de seguridad de la base de datos de ejemplo:
+A menos que sea una base de datos pequeña, comprima la copia de seguridad de la base de datos para reducir la cantidad de tiempo de transferencia de la copia. El mandato siguiente comprime la copia de seguridad de la base de datos de ejemplo:
 
 `tar czvf /backup/example_backup.tar.gz /backup./example_backup.sql`
 

@@ -1,6 +1,6 @@
 ---
 copyright:
-  years: 1994, 2017
+  years: 2014, 2018
 lastupdated: "2017-11-10"
 ---
 
@@ -26,6 +26,6 @@ Para cambiar la contraseña raíz de {{site.data.keyword.mysql}}, utilice los pa
 
 4. Sustituya 'newpassword' por su nueva contraseña raíz.
 
-5. Reinicie el servidor de {{site.data.keyword.mysql}} utilizando el mandato siguiente: 
+5. Reinicie el servidor de {{site.data.keyword.mysql}} utilizando el mandato siguiente:
 
         # /etc/init.d/mysqld start

@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-13"
+  years: 2014, 2018
+lastupdated: "2018-01-26"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,9 +9,7 @@ lastupdated: "2017-11-13"
 
 # Configuración de redes MongoDB
 
-## Visión general
-
-Los servidores diseñados de {{site.data.keyword.Bluemix}} con {{site.data.keyword.mongodb}} instalado se configuran para que {{site.data.keyword.mongodb}} esté enlazado a la dirección IP de red privada. Esto se debe a la recomendación de 10gen, y sirve para minimizar los riesgos de seguridad de tener una instancia accesible y abierta de {{site.data.keyword.mongodb}} expuesta públicamente en el despliegue.
+Los servidores diseñados de {{site.data.keyword.Bluemix}} con {{site.data.keyword.mongodb}} instalado se configuran para que {{site.data.keyword.mongodb}} esté enlazado a la dirección IP de red privada. Esto se debe a la recomendación de 10gen, y sirve para minimizar los riesgos de seguridad de tener una instancia accesible y abierta de {{site.data.keyword.mongodb}} expuesta públicamente en el despliegue. 
 {:shortdesc}
 
 ## Cambiar la interfaz enlazada
