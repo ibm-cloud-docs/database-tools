@@ -1,6 +1,6 @@
 ---
 copyright:
-  years: 1994, 2017
+  years: 2014, 2018
 lastupdated: "2017-11-13"
 ---
 
@@ -31,7 +31,7 @@ lastupdated: "2017-11-13"
 [기사 2로 이동 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](http://forge.mysql.com/wiki/ServerVariables){: new_window}
 
 ## mysqld 변수 최적화(Ian Gilfillan 작성)
-mysqld 서버 변수 설정에 대한 몇 가지 가이드라인을 포함해 MySQL 최적화에 대한 이 기사를 참조하십시오.
+mysqld 서버 변수 설정에 대한 몇 가지 가이드라인을 포함하는 MySQL 최적화는 이 기사를 참조하십시오.
 (key_buffer_size, 조회 캐시 변수, table_cache, sort_buffer 등)
 [기사로 이동 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](http://www.databasejournal.com/features/mysql/article.php/3367871){: new_window}
 

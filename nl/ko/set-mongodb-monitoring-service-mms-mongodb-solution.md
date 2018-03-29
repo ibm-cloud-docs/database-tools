@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-16"
+  years: 2014, 2018
+lastupdated: "2018-01-26"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,8 +9,6 @@ lastupdated: "2017-11-16"
 
 
 # MMS(MongoDB Monitoring Service) 설정
-
-## 개요
 
 {{site.data.keyword.mongodb}} 솔루션을 완료한 후 복제본 세트의 호스트가 10gen의 무료 MMS({{site.data.keyword.mongodb}} Monitoring Service)에서 작동되도록 설정할 수 있습니다. 이 모니터링 서비스를 사용하여 복제된 데이터베이스의 자세한 기술 분석을 볼 수 있습니다. 시작하려면 MMS API 키 및 비밀 키가 필요하며, 이러한 키는 [10gen MMS 등록 웹 사이트![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](http://www.10gen.com/mongodb-monitoring-service){: new_window}에서 계정을 등록하여 얻을 수 있습니다.
 {:shortdesc}

@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-15"
+  years: 2014, 2018
+lastupdated: "2018-01-26"
 ---
 
 {:shortdesc: .shortdesc}
@@ -10,7 +10,7 @@ lastupdated: "2017-11-15"
 
 # Linux에서 MySQL 백업
 
-## mysql 디렉토리에서 복사
+## MySQL 디렉토리에서 복사
 
 기본적으로 Linux 서버의 {{site.data.keyword.mysql}} 데이터베이스가 다음 디렉토리에 저장됩니다.
 
@@ -34,7 +34,7 @@ mysqldump 명령을 사용하면 mysqld 서비스를 종료하지 않고도 개�
 
 `mysqldump example > /backup/example_backup.sql`
 
-소형 데이터베이스가 아니면 데이터베이스 백업을 압축하여 백업 전송 시간을 줄이는 것이 좋습니다. 다음 명령은 예제 데이터베이스의 백업을 압축합니다.
+소형 데이터베이스가 아니면 데이터베이스 백업을 압축하여 백업 전송 시간을 줄이십시오. 다음 명령은 예제 데이터베이스의 백업을 압축합니다.
 
 `tar czvf /backup/example_backup.tar.gz /backup./example_backup.sql`
 

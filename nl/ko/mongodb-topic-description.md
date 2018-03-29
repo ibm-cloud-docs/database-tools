@@ -1,6 +1,6 @@
 ---
 copyright:
-  years: 1994, 2017
+  years: 2014, 2018
 lastupdated: "2017-11-15"
 ---
 
@@ -19,7 +19,7 @@ lastupdated: "2017-11-15"
 SL-MongoDB 설치에 대한 참고:
 
 * 기본적으로 Mongod({{site.data.keyword.mongodb}} 서비스)는 사설 네트워크 인터페이스에만 바인드됩니다. {{site.data.keyword.mongodb}}는 사전 구성된 관리자에게 프로비저닝됩니다. 사용자 이름은 _admin_이며 비밀번호는 서버 루트 비밀번호와 같습니다.
-* 복제본 세트 클러스터와 같은 {{site.data.keyword.mongodb}} 솔루션을 주문하는 경우, 관리 비밀번호는 클러스터 구성 프로세스의 마지막에 솔루션의 모든 {{site.data.keyword.mongodb}} 서버에 설정됩니다.
+* 복제본 세트 클러스터와 같은 {{site.data.keyword.mongodb}} 솔루션을 주문하는 경우, 관리 비밀번호는 클러스터 구성 프로세스의 마지막에 솔루션의 모든 {{site.data.keyword.mongodb}} 서버에서 설정됩니다.
 
 {{site.data.keyword.mongodb}}에 대한 자세한 정보는 다음 링크를 참조하십시오. 
 

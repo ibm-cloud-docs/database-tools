@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-11-20"
+  years: 2017, 2018
+lastupdated: "2018-01-29"
 
 
 ---
@@ -19,9 +19,9 @@ lastupdated: "2017-11-20"
 
 다음 태스크를 완료하여 데이터베이스 도구를 시작하십시오.
 
-| 시작하기          |
+| 시작하기       |
 |:------------------|
-| __ 1. [데이터베이스 도구](database-tools-about.html)에 대해 자세히 보십시오. |
-| __ 2. [{{site.data.keyword.mongodb}}](mongodb-topic-description.html), [Riak](riak.html) 및 [{{site.data.keyword.mysql}}](postgresql-security-best-practices.html)에 대해 자세히 보십시오. |
-| __ 3. 가상 서버를 프로비저닝하지 않은 경우 [가상 서버 시작하기](docs/vsi/vsi_index.html)를 참조하십시오.  |
+| __ 1. [데이터베이스 도구](database-tools-about.html)에 대해 자세히 알아보십시오. |
+| __ 2. [{{site.data.keyword.mongodb}}](mongodb-topic-description.html), [Riak](riak.html) 및 [{{site.data.keyword.mysql}}](mysql-security-best-practices.html)에 대해 자세히 알아보십시오. |
+| __ 3. 가상 서버를 프로비저닝하지 않은 경우 [가상 서버 시작하기](/docs/vsi/vsi_index.html)를 참조하십시오.  |
 {: caption="표 1. 데이터베이스 도구 시작하기" caption-side="top"}

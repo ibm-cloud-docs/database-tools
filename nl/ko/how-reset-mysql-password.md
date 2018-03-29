@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-16"
+  years: 2014, 2018
+lastupdated: "2018-01-26"
 ---
 
 {:shortdesc: .shortdesc}
@@ -19,7 +19,7 @@ lastupdated: "2017-11-16"
 2. --skip-grant-tables 옵션을 사용하여 mysqld를 다시 시작하십시오.
 3. mysqld 서버에 연결하십시오.
   * **옵션 1:** mysql -h hostname mysql 및 GRANT 명령으로 비밀번호 변경.
-    * GRANT 명령에 대한 자세한 정보는 [{{site.data.keyword.mysql}} 문서![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](http://www.mysql.com/doc/G/R/GRANT.html){: new_window}를 참조하십시오.
+    * GRANT 명령에 대한 자세한 정보는 [{{site.data.keyword.mysql}} Documentation![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](http://www.mysql.com/doc/G/R/GRANT.html){: new_window}을 참조하십시오.
   * **옵션 2:** `shell> mysqladmin -h hostname -u user password 'new password'`
 4. `shell> mysqladmin -h hostname flush-privileges`를 사용하거나 SQL 명령 `mysql> FLUSH PRIVILEGES;`를 사용하여 권한 테이블을 로드하십시오.
 

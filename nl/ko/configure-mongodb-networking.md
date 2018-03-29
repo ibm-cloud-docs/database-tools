@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-13"
+  years: 2014, 2018
+lastupdated: "2018-01-26"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,9 +9,7 @@ lastupdated: "2017-11-13"
 
 # MongoDB 네트워킹 구성
 
-## 개요
-
-{{site.data.keyword.mongodb}}가 설치된 {{site.data.keyword.Bluemix}} 엔지니어링 서버는 {{site.data.keyword.mongodb}}가 사설 네트워크 IP 주소에 바인드되도록 구성되어 있습니다. 이는 10gen 권장사항에 따른 것이며, 배치 시 액세스 가능한 열린 {{site.data.keyword.mongodb}} 인스턴스가 공개적으로 노출되는 보안 위험을 최소화하기 위해 제공됩니다.
+{{site.data.keyword.mongodb}}가 설치된 {{site.data.keyword.Bluemix}} 엔지니어링 서버는 {{site.data.keyword.mongodb}}가 사설 네트워크 IP 주소에 바인드되도록 구성되어 있습니다. 이는 10gen 권장사항에 따른 것이며, 배치 시 액세스 가능한 열린 {{site.data.keyword.mongodb}} 인스턴스가 공개적으로 노출되는 보안 위험을 최소화하기 위해 제공됩니다. 
 {:shortdesc}
 
 ## 바인드된 인터페이스 변경

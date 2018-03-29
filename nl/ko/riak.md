@@ -1,6 +1,6 @@
 ---
 copyright:
-  years: 1994, 2017
+  years: 2014, 2018
 lastupdated: "2017-11-13"
 ---
 
@@ -22,7 +22,7 @@ Riak는 기존 관계형 데이터베이스 및 기타 "NoSQL" 비관계형 데�
 * 매우 안정적임 - 많은 사용자는 Riak를 클라우드 데이터 인프라의 "구성 요소"로 간주합니다.
 * 세련되며 단순한 디자인이 운영 비용을 낮추는 데 도움이 됩니다.
 
-{{site.data.keyword.BluSoftlayer}}는 표준 Riak 및 Riak 엔터프라이즈 버전의 Riak를 제공합니다.
+{{site.data.keyword.BluSoftlayer}}는 표준 Riak 및 Riak 엔터프라이즈 버전을 제공합니다.
 
 Riak에 대한 자세한 정보는 Basho의 웹 사이트에서 Riak 제품 개요 및 기술과 지원 문서를 참조하십시오.
 
