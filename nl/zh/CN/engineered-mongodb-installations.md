@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-10-16"
+  years: 2014, 2018
+lastupdated: "2018-01-26"
 ---
 
 {:shortdesc: .shortdesc}
@@ -17,12 +17,12 @@ lastupdated: "2017-10-16"
 
 * **Noatime** - 通过添加 noatime，无需系统将正在读取的文件写入文件系统，这意味着访问文件的速度更快，磁盘磨损减少。
 
-* **在 BIOS 中关闭 NUMA** - Linux、NUMA 和 {{site.data.keyword.mongodb}} 通常不会一起使用。如果要在 NUMA 硬件上运行 {{site.data.keyword.mongodb}}，建议将 NUMA 关闭（使用 interleave 内存策略运行）。否则，问题可能会以奇怪的方式出现，例如一段时间内速度大幅下降或系统 CPU 时间长。
+* **在 BIOS 中关闭 NUMA** - Linux、NUMA 和 {{site.data.keyword.mongodb}} 通常不会一起使用。如果在 NUMA 硬件上运行 {{site.data.keyword.mongodb}}，请将 NUMA 关闭（使用 interleave 内存策略运行）。否则，问题可能会以奇怪的方式出现，例如一段时间内速度大幅下降或系统 CPU 时间长。
 
-* **Ulimit** - 对于打开文件数，ulimit 设置为 64000，对于用户进程数，ulimit 设置为 32000。这些限制可防止因可用文件句柄数或用户进程数丢失而导致的故障。
+* **Ulimit** - 对于打开文件数，ulimit 设置为 64,000，对于用户进程数，ulimit 设置为 32,000。这些限制可防止因可用文件句柄数或用户进程数丢失而导致的故障。
 
-* **EXT4** - 选择时，Ext4 的优先级高于 Ext3。Ext3 分配文件（或除去文件）的速度可能较慢，而且在大型文件中的访问性能不佳。
+* **EXT4** - 选择时，Ext4 优先于 Ext3。Ext3 分配文件（或除去文件）的速度可能较慢，而且在大型文件中的访问性能不佳。
 
-* **单独的日志卷** - 根据 10gen 的建议，{{site.data.keyword.cloud_notm}} 会使用单独为日志安装的 SSD 卷。此卷在更高端的工程服务器上提供，可避免日志记录受到对数据安装执行的读/写操作的干扰。
+* **单独的日志卷** - 根据 10gen 的建议，{{site.data.keyword.cloud_notm}} 会使用单独为日志安装的 SSD 卷。此卷在更高端的工程服务器上提供，并可避免日志记录干扰对数据安装执行的读/写操作。
 
 * **已预安装 MMS** - MMS 是 10gen 的监视服务，为所有 {{site.data.keyword.mongodb}} 实例免费提供。所有 {{site.data.keyword.cloud_notm}} 工程服务器均已预配置 MMS 代理程序。

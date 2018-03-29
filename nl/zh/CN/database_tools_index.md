@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-11-20"
+  years: 2017, 2018
+lastupdated: "2018-01-29"
 
 
 ---
@@ -22,6 +22,6 @@ lastupdated: "2017-11-20"
 | 入门|
 |:------------------|
 | __ 1. 了解有关[数据库工具](database-tools-about.html)的更多信息。|
-| __ 2. 了解有关 [{{site.data.keyword.mongodb}}](mongodb-topic-description.html)、[Riak](riak.html) 和 [{{site.data.keyword.mysql}}](postgresql-security-best-practices.html) 的更多信息。|
-| __ 3. 如果尚未供应虚拟服务器，请参阅[虚拟服务器入门](docs/vsi/vsi_index.html)。|
+| __ 2. 了解有关 [{{site.data.keyword.mongodb}}](mongodb-topic-description.html)、[Riak](riak.html) 和 [{{site.data.keyword.mysql}}](mysql-security-best-practices.html) 的更多信息。|
+| __ 3. 如果尚未供应虚拟服务器，请参阅[虚拟服务器入门](/docs/vsi/vsi_index.html)。|
 {: caption="表 1. 数据库工具入门" caption-side="top"}

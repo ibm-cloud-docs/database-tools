@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-16"
+  years: 2014, 2018
+lastupdated: "2018-01-26"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,8 +9,6 @@ lastupdated: "2017-11-16"
 
 
 # 设置 MongoDB 监视服务 (MMS)
-
-## 概述
 
 完成 {{site.data.keyword.mongodb}} 解决方案后，可以将副本集内的主机设置为与 10gen 的免费 {{site.data.keyword.mongodb}} 监视服务（MMS）配合使用。可以使用此监视服务来查看复制数据库的详细技术分析。为此，首先您需要有通过在 [10gen MMS 注册 Web 站点 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://www.10gen.com/mongodb-monitoring-service){: new_window} 上注册帐户而获取的 MMS API 密钥和私钥。
 {:shortdesc}

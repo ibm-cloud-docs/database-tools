@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-15"
+  years: 2014, 2018
+lastupdated: "2018-01-26"
 ---
 
 {:shortdesc: .shortdesc}
@@ -10,7 +10,7 @@ lastupdated: "2017-11-15"
 
 # 在 Linux 中备份 MySQL
 
-## 从 mysql 目录复制
+## 从 MySQL 目录复制
 
 缺省情况下，Linux 服务器上的 {{site.data.keyword.mysql}} 数据库存储在以下目录中：
 
@@ -34,7 +34,7 @@ cp 命令的 -R 开关表示递归，因为每个数据库均位于单独的目�
 
 `mysqldump example > /backup/example_backup.sql`
 
-除非是小型数据库，否则建议您压缩数据库备份以减少备份传输时间。以下命令将压缩示例数据库的备份：
+除非是小型数据库，否则请压缩数据库备份以减少备份传输时间。以下命令将压缩示例数据库的备份：
 
 `tar czvf /backup/example_backup.tar.gz /backup./example_backup.sql`
 

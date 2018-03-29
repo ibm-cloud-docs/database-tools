@@ -1,15 +1,13 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-13"
+  years: 2014, 2018
+lastupdated: "2018-01-26"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # 配置 MongoDB 联网
-
-## 概述
 
 安装了 {{site.data.keyword.mongodb}} 的 {{site.data.keyword.Bluemix}} 工程服务器已配置为将 {{site.data.keyword.mongodb}} 绑定到专用网络 IP 地址。这是根据 10gen 的建议执行的操作，用于最大程度降低开放式可访问 {{site.data.keyword.mongodb}} 实例在部署时公共公开的安全风险。
 {:shortdesc}

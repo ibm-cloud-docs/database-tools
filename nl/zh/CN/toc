@@ -15,11 +15,7 @@
         engineered-mongodb-installations.md
          
     riak.md
-         
-    {: .topicgroup}
-    MySQL
-        postgresql-security-best-practices.md
-        mysql-security-best-practices.md
+    mysql-security-best-practices.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
