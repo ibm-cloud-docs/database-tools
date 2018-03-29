@@ -1,5 +1,7 @@
 ---
-copyright: years: 1994, 2017 lastupdated: "2017-11-27"
+copyright:
+  years: 2014, 2018
+lastupdated: "2018-01-26"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,10 +11,7 @@ copyright: years: 1994, 2017 lastupdated: "2017-11-27"
 
 ## Como é possível monitorar meu servidor MySQL?
 
-O _mytop_, um aplicativo Linux pequeno e
-fácil de usar, é um monitor quase em tempo real (semelhante ao
-utilitário 'top' do UNIX) que verifica especificamente o que o
-servidor {{site.data.keyword.mysql}} está fazendo. O _mytop_ atualiza-se a cada instante
+_mytop_, um aplicativo Linux, é um monitor quase em tempo real (semelhante ao utilitário 'top' do UNIX) que olha especificamente o que o servidor do {{site.data.keyword.mysql}} está fazendo. O _mytop_ atualiza-se a cada instante
 permitindo verificar com eficácia o desempenho do SQL. O _mytop_ também é capaz de exibir uma
 grande quantia de informações. Ele também considera que você está se conectando ao
 servidor {{site.data.keyword.mysql}} no host local com o

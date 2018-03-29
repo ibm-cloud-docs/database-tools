@@ -1,5 +1,7 @@
 ---
-copyright: years: 1994, 2017 lastupdated: "2017-11-16"
+copyright:
+  years: 2014, 2018
+lastupdated: "2018-01-26"
 ---
 
 {:shortdesc: .shortdesc}
@@ -7,15 +9,10 @@ copyright: years: 1994, 2017 lastupdated: "2017-11-16"
 
 # Melhores práticas de segurança do MySQL
 
-## Visão geral
-
 Muitos usuários do
 {{site.data.keyword.BluSoftlayer_full}} confiam no
 {{site.data.keyword.mysql}} como solução de banco de
-dados. Como os bancos de dados hospedam várias informações
-importantes e, algumas vezes, confidenciais, é recomendado
-assegurar os bancos de dados {{site.data.keyword.mysql}}
-para proteger as informações. As práticas de segurança para o {{site.data.keyword.mysql}} são dependentes de necessidades individuais e necessidades de negócios; no entanto, há melhores práticas que são recomendadas para a introdução. Alinhe-se com as dicas a seguir para antecipar a proteção do seu banco de dados
+dados. Como os bancos de dados hospedam várias informações importantes e, às vezes, confidenciais, assegure-se de proteger os bancos de dados do {{site.data.keyword.mysql}} para proteger suas informações. As práticas de segurança para o {{site.data.keyword.mysql}} são dependentes de necessidades individuais e necessidades de negócios; no entanto, há melhores práticas que são recomendadas para a introdução. Alinhe-se com as dicas a seguir para antecipar a proteção do seu banco de dados
 {{site.data.keyword.mysql}}.
 
 * Configure a senha raiz do {{site.data.keyword.mysql}}.
@@ -24,11 +21,7 @@ criado durante a instalação inicial do {{site.data.keyword.mysql}}.
 * Assegure-se de que cada senha de conta individual do
 {{site.data.keyword.mysql}} seja configurada.
 * Conceda privilégios conforme a necessidade. Evite conceder privilégios globais desnecessariamente.
-* Não use
-[curingas![Ícone de link
-externo](../../icons/launch-glyph.svg "Íconede link externo")](http://en.wikipedia.org/wiki/Wildcard_character){: new_window} no valor de nome
-
-do host associado às contas.
+* Não use curingas no valor do nome do host associado às contas.
 * Revise periodicamente os usuários e bancos de
 dados do {{site.data.keyword.mysql}} de uma conta
 para verificar se as permissões continuam precisas.
@@ -38,7 +31,7 @@ para verificar se as permissões continuam precisas.
 
 ## Recursos adicionais
 
-Há vários recursos que fornecem mais detalhes sobre como proteger seu banco de dados {{site.data.keyword.mysql}}. Recomenda-se iniciar com as diretrizes de segurança do {{site.data.keyword.mysql}} que são baseadas na versão do {{site.data.keyword.mysql}} que está em seu dispositivo:
+Há vários recursos que fornecem mais detalhes sobre como proteger seu banco de dados {{site.data.keyword.mysql}}. Inicie com as diretrizes de segurança do {{site.data.keyword.mysql}} baseadas na versão do {{site.data.keyword.mysql}} que está no seu dispositivo:
 
 * [{{site.data.keyword.mysql}} Versão 5.7 ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](http://dev.mysql.com/doc/refman/5.7/en/security.html){: new_window}
 

@@ -1,5 +1,7 @@
 ---
-copyright: years: 1994, 2017 lastupdated: "2017-11-15"
+copyright:
+  years: 2014, 2018
+lastupdated: "2018-01-26"
 ---
 
 {:shortdesc: .shortdesc}
@@ -8,7 +10,7 @@ copyright: years: 1994, 2017 lastupdated: "2017-11-15"
 
 # Fazendo backup do MySQL no Linux
 
-## Copiar do diretório mysql
+## Copiar do diretório do MySQL
 
 Por padrão, os bancos de dados {{site.data.keyword.mysql}} em servidores Linux são armazenados no diretório a seguir:
 
@@ -32,7 +34,7 @@ A seguir está um exemplo de comando que você usa para fazer backup de um banco
 
 `mysqldump example > /backup/example_backup.sql`
 
-A menos que seja um banco de dados pequeno, recomenda-se compactar o backup de banco de dados para reduzir a quantia de tempo para transferir o backup. O comando a seguir compacta o backup do banco de dados de exemplo:
+A menos que seja um banco de dados pequeno, compacte o backup de banco de dados para reduzir a quantia de tempo da transferência do backup. O comando a seguir compacta o backup do banco de dados de exemplo:
 
 `tar czvf /backup/example_backup.tar.gz /backup./example_backup.sql`
 

@@ -1,5 +1,7 @@
 ---
-copyright: years: 1994, 2017 lastupdated: "2017-11-10"
+copyright:
+  years: 2014, 2018
+lastupdated: "2018-01-26"
 ---
 
 {:shortdesc: .shortdesc}
@@ -7,41 +9,42 @@ copyright: years: 1994, 2017 lastupdated: "2017-11-10"
 
 # Mudando o diretório de dados do MySQL em um ambiente como o UNIX
 
-Siga estas etapas para mudar seu diretório de dados do MySQL:
+Siga estas etapas para mudar seu diretório de dados do {{site.data.keyword.mysql}}:
 
 1. Efetue login no servidor usando [PuTTY ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html){: new_window} ou seu cliente preferencial.
 
   **Nota:** se você estiver usando uma partição dedicada para o diretório de dados, certifique-se de montar a nova partição no local do diretório de dados original depois de copiar os dados. Montar uma nova partição salva as mudanças de configuração não padrão com as quais alguns aplicativos podem não funcionar.
 
-2. Encerre o mysqld (daemon/servidor mysql). O processo para iniciar e parar o daemon podem diferir entre os diferentes sistemas operacionais e distribuições.
-  **Nota:** o MySQL deve ser interrompido durante qualquer processo que afeta diretamente os arquivos brutos.
+2. Encerre o mysqld (daemon/servidor do {{site.data.keyword.mysql}}). O processo para iniciar e parar o daemon pode diferir entre os diferentes sistemas operacionais e distribuições.
+
+  **Nota:** o {{site.data.keyword.mysql}} deve ser interrompido durante qualquer processo que afete diretamente os arquivos brutos.
 
   `/etc/init.d/mysql stop`
   Ou
   `/etc/init.d/mysqld, /etc/init.d/mysql-server, /usr/loca/etc/init.d/mysql, /opt/lamp…`
 
-3. Faça backup de seu banco de dados antes de fazer quaisquer mudanças. Certifique-se de que o daemon do MySQL não esteja em execução quando você fizer cópias diretas dos arquivos de banco de dados brutos. <!--(or be good at flushing and locking)-->
+3. Faça backup de seu banco de dados antes de fazer quaisquer mudanças. Assegure-se de que o daemon do {{site.data.keyword.mysql}} não esteja em execução quando fizer cópias diretas dos arquivos de banco de dados brutos. <!--(or be good at flushing and locking)-->
 
-  Se você usar o cPanel no servidor, pare o cPanel (principalmente TailWatch/chkservd) antes de o daemon ser reiniciado. É possível criar um arquivo temporário `/etc/chkserv.d/mysqlisevil` para que 'chkservd' pare de reiniciar o serviço. Se você não estiver familiarizado com rsync, será possível usar qualquer ferramenta para criar seu backup (como cp, cpio ou tar).
+  Se você usar o cPanel no servidor, pare o cPanel (principalmente TailWatch/chkservd) antes de o daemon ser reiniciado. É possível criar um arquivo temporário `/etc/chkserv.d/mysqlisevil` para que 'chkservd' pare de reiniciar o serviço. Se você não estiver familiarizado com o rsync, será possível usar qualquer ferramenta para criar seu backup (como cp, cpio ou tar).
 
   `rsync -vaP /var/lib/mysql/ /var/lib/mysql.'date +%s'`
 
-4. Crie o diretório de dados e forneça a propriedade do usuário mysql (ou qualquer usuário especificado em seu arquivo de opções globais 'my.cnf'). Neste exemplo, o local `/var/lib/mysql-data` é usado, mas é possível usar qualquer local desejado. Se você estiver incluindo um disco/dispositivo lógico especificamente para este propósito, também será necessário incluir a entrada em `/etc/fstab` e montar o diretório antes de continuar.
+4. Crie o diretório de dados e forneça a propriedade do usuário do {{site.data.keyword.mysql}} (ou de qualquer usuário especificado em seu arquivo de opção global 'my.cnf'). Neste exemplo, o local `/var/lib/mysql-data` é usado, mas é possível usar qualquer local desejado. Se você estiver incluindo um disco/dispositivo lógico especificamente para este propósito, também será necessário incluir a entrada em `/etc/fstab` e montar o diretório antes de continuar.
 
   `chown mysql:mysql /var/lib/mysql-data`
 
-5. Faça uma cópia final do diretório original para o novo diretório de dados mysql (certifique-se de manter o / à direita no final do primeiro diretório):
+5. Faça uma cópia final do diretório original no novo diretório de dados do {{site.data.keyword.mysql}} (assegure-se de manter a / à direita no fim do primeiro diretório):
 
   `rsync -vaP /var/lib/mysql/ /var/lib/mysql-data`
 
-6. Certifique-se de que o novo diretório de dados tenha a propriedade correta, o usuário/grupo mysql padrão ou o usuário que está especificado em seu arquivo de opções globais 'my.cnf'. Se você não tiver certeza, será possível usar o comando a seguir para possuir recursivamente a hierarquia inteira para o usuário e grupo mysql.
+6. Assegure-se de que o novo diretório de dados tenha a propriedade correta, seja o usuário/grupo padrão do {{site.data.keyword.mysql}} ou o usuário especificado em seu arquivo de opção global 'my.cnf'. Se não tiver certeza, será possível usar o comando a seguir para possuir recursivamente toda a hierarquia para o usuário e o grupo do {{site.data.keyword.mysql}}.
 
   `chown -R mysql:mysql /var/lib/mysql-data`
 
-  **Nota:** o usuário mysql precisa ter permissão completa (rwx) para as pastas de banco de dados e permissão de leitura/gravação para os arquivos de log, compartimento, dados, índice e formulário.<br/>
+  **Nota:** o usuário do {{site.data.keyword.mysql}} precisa ter permissão integral (rwx) para as pastas de banco de dados e permissão de leitura/gravação para o log, o compartimento, os dados, o índice e os arquivos de formulário.<br/>
 Geralmente, as pastas do banco de dados têm uma permissão de 700 (drwx------) e estão sob a propriedade de mysql:mysql enquanto em um ambiente de hospedagem compartilhado. A permissão pode ser mais amplamente configurada com 755 (drwxr-xr-x) em um ambiente dedicado.
 
-7. Atualize seu arquivo de configuração '/etc/my.cnf' para apontá-lo para o novo diretório de dados.
+7. Atualize seu arquivo de configuração '/etc/my.cnf' para apontá-lo para o novo diretório de dados. 
   **Importante:** faça backup de tudo antes de fazer quaisquer edições no arquivo de configuração.
 
   `cp -vp /etc/my.cnf /etc/my.cnf.'date +%s'`<br/>
@@ -61,10 +64,10 @@ Geralmente, as pastas do banco de dados têm uma permissão de 700 (drwx------) 
 
   Se você não desejar criar o link, certifique-se de mudar o soquete 'mysql.default' _e o soquete 'mysqli.default'_ em 'php.ini' e parar e iniciar completamente o Apache.
 
-10. Inicie o daemon do MySQL.
+10. Inicie o daemon do {{site.data.keyword.mysql}}.
 
   `/etc/init.d/mysql start`
 
-11. Verifique se mysql está funcionando. Se mysql não responder, revise seus logs de erro. Reverta as mudanças se necessário.
+11. Verifique se o {{site.data.keyword.mysql}} está funcionando. Se o {{site.data.keyword.mysql}} não responder, revise seus logs de erro. Reverta as mudanças se necessário.
 
   `mysqladmin ping`

@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-11-20"
+  years: 2017, 2018
+lastupdated: "2018-01-29"
 
 
 ---
@@ -26,6 +26,6 @@ Conclua as tarefas a seguir para introdução às ferramentas de banco de dados.
 | Introdução       |
 |:------------------|
 | __ 1. Saiba mais sobre [ferramentas de banco de dados](database-tools-about.html). |
-| __ 2. Saiba mais sobre [{{site.data.keyword.mongodb}}](mongodb-topic-description.html), [Riak](riak.html) e [{{site.data.keyword.mysql}}](postgresql-security-best-practices.html). |
-| __ 3. Se você não provisionou seu servidor virtual, veja [Introdução aos servidores virtuais](docs/vsi/vsi_index.html).  |
+| __ 2. Saiba mais sobre o [{{site.data.keyword.mongodb}}](mongodb-topic-description.html), o [Riak](riak.html) e o [{{site.data.keyword.mysql}}](mysql-security-best-practices.html). |
+| __ 3. Se você não provisionou seu servidor virtual, veja [Introdução aos servidores virtuais](/docs/vsi/vsi_index.html).  |
 {: caption="Tabela 1. Introdução às ferramentas de banco de dados" caption-side="top"}
