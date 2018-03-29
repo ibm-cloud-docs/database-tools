@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-16"
+  years: 2014, 2018
+lastupdated: "2018-01-26"
 ---
 
 {:shortdesc: .shortdesc}
@@ -11,7 +11,7 @@ lastupdated: "2017-11-16"
 
 {{site.data.keyword.mysql}} root ユーザー・パスワードを再設定する必要がある場合は、以下の手順を実行します。
 
-1. mysqld サーバーに kill (kill -9 ではなく) を送信して、mysqld サーバーを停止します。pid は .pid ファイルに格納されています。このファイルは、通常 {{site.data.keyword.mysql}} データベース・ディレクトリーにあります。
+1. mysqld サーバーに kill (kill -9 ではなく) を送信して、mysqld サーバーを停止します。 pid は .pid ファイルに格納されています。このファイルは、通常 {{site.data.keyword.mysql}} データベース・ディレクトリーにあります。
   * 例: `shell> kill cat /your-mysql-data-directory/hostname.pid`
   * Red Hat で、以下のようにしてデータベースを停止することもできます。
     * 例: `shell> service mysqld stop`

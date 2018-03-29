@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-13"
+  years: 2014, 2018
+lastupdated: "2018-01-26"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,9 +9,7 @@ lastupdated: "2017-11-13"
 
 # MongoDB ネットワーキングの構成
 
-## 概要
-
-{{site.data.keyword.mongodb}} がインストールされた {{site.data.keyword.Bluemix}} エンジニアリング・サーバーは、{{site.data.keyword.mongodb}} をプライベート・ネットワーク IP アドレスにバインドするように構成されています。これは 10gen の推奨によるもので、オープンのアクセス可能な {{site.data.keyword.mongodb}} インスタンスがデプロイメント時にパブリックに公開されることによるセキュリティー・リスクを最小限に抑えるために役立ちます。
+{{site.data.keyword.mongodb}} がインストールされた {{site.data.keyword.Bluemix}} エンジニアリング・サーバーは、{{site.data.keyword.mongodb}} をプライベート・ネットワーク IP アドレスにバインドするように構成されています。 これは 10gen の推奨によるもので、オープンのアクセス可能な {{site.data.keyword.mongodb}} インスタンスがデプロイメント時にパブリックに公開されることによるセキュリティー・リスクを最小限に抑えるために役立ちます。 
 {:shortdesc}
 
 ## バインドされたインターフェースの変更
@@ -21,6 +19,6 @@ lastupdated: "2017-11-13"
         # mongo.conf
         bind_ip = 0.0.0.0  
 
-この属性では、バインディングの対象をすべてのインターフェースに変更するか、あるいは特定のインターフェースの IP アドレス (デプロイメントの詳細から入手可能) をこのフィールドで設定できます。{{site.data.keyword.mongodb}} インスタンスの再始動が必要です。
+この属性では、バインディングの対象をすべてのインターフェースに変更するか、あるいは特定のインターフェースの IP アドレス (デプロイメントの詳細から入手可能) をこのフィールドで設定できます。 {{site.data.keyword.mongodb}} インスタンスの再始動が必要です。
 
 **重要:** ファイアウォールや iptables など、インスタンスへのアクセスを制限する他のセキュリティー手段を講じることなく、{{site.data.keyword.mongodb}} をパブリック・インターフェースに公開しないでください。

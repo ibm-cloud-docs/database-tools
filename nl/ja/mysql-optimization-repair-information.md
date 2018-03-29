@@ -1,6 +1,6 @@
 ---
 copyright:
-  years: 1994, 2017
+  years: 2014, 2018
 lastupdated: "2017-11-13"
 ---
 
@@ -30,12 +30,12 @@ lastupdated: "2017-11-13"
 [記事 1 にアクセス ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://www.mysqlperformanceblog.com/2006/06/08/mysql-server-variables-sql-layer-or-storage-engine-specific/){: new_window}
 [記事 2 にアクセス ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://forge.mysql.com/wiki/ServerVariables){: new_window}
 
-## mysqld 変数の最適化 (Ian Gilfillan 著)  
+## mysqld 変数の最適化 (Ian Gilfillan 著)
 MySQL 最適化に関するこの記事を参照してください。mysqld サーバー変数 (key_buffer_size、Query cache variables、table_cache、sort_buffer など) の設定に関するガイドラインがいくつか含まれています。
 [記事にアクセス ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://www.databasejournal.com/features/mysql/article.php/3367871){: new_window}
 
-## MySQL 内のデータベース破壊の修復 (Ian Gilfillan 著) 
-{{site.data.keyword.mysql}} の使用時にテーブルが破損するのはまれです。しかし、発生した場合に問題を修正する方法を知っておくと役立ちます。
+## MySQL 内のデータベース破壊の修復 (Ian Gilfillan 著)
+{{site.data.keyword.mysql}} の使用時にテーブルが破損するのはまれです。 しかし、発生した場合に問題を修正する方法を知っておくと役立ちます。
 [記事にアクセス ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://www.databasejournal.com/features/mysql/article.php/3300511){: new_window}
 
 ## MySQL: 照会および索引の最適化 (Ian Gilfillan 著)
