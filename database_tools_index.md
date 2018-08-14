@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-01-29"
+lastupdated: "2018-08-14"
 
 
 ---
@@ -12,7 +12,7 @@ lastupdated: "2018-01-29"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Getting started with database tools
+# Getting started tutorial
 
 {{site.data.keyword.cloud}} offers optional at-cost and no-cost database tool products for both {{site.data.keyword.virtualmachinesshort}} and {{site.data.keyword.baremetal_short}} deployments. However, database tool products are only available for monthly billing cycles of {{site.data.keyword.virtualmachinesshort}} and {{site.data.keyword.baremetal_short}}.
 {:shortdesc}

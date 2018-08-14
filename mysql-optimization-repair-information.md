@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2014, 2018
-lastupdated: "2017-11-13"
+lastupdated: "2018-08-14"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,7 +9,7 @@ lastupdated: "2017-11-13"
 
 # MySQL Optimization/Repair Information
 
-## How MySQL Uses Memory 
+## How MySQL Uses Memory
 The following are some of the ways that the mysqld server uses memory, and associated mysqld variable names.
 * [Memory Use MySQL 5.0 ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://dev.mysql.com/doc/refman/5.0/en/memory-use.html){: new_window}
 * [Memory Use MySQL 4.1 ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://dev.mysql.com/doc/refman/4.1/en/memory-use.html){: new_window}
@@ -28,7 +28,7 @@ The following are some of the ways that the mysqld server uses memory, and assoc
 ## MySQL Server Variables - SQL layer or Storage Engine specific.
 The following links list some of the more common variables.
 [Go to article 1 ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.mysqlperformanceblog.com/2006/06/08/mysql-server-variables-sql-layer-or-storage-engine-specific/){: new_window}
-[Go to article 2 ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://forge.mysql.com/wiki/ServerVariables){: new_window}
+[Go to article 2 ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://dev.mysql.com/doc/refman/5.7/en/server-system-variable-reference.html){: new_window}
 
 ## Optimizing the mysqld variables by Ian Gilfillan
 See this article on MySQL optimization, including some guidelines on setting mysqld server variable.

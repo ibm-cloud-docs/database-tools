@@ -1,14 +1,14 @@
 ---
 copyright:
   years: 2014, 2018
-lastupdated: "2018-01-26"
+lastupdated: "2018-08-14"
 ---
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Configuring Riak networking
 
-When you install Riak on an {{site.data.keyword.Bluemix}} engineered server, Riak is bound to the [private network IP address ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.softlayer.com/about/datacenters/rack-architecture){: new_window}. Binding Riak minimizes the security risks of having an open, accessible Riak instance exposed publicly upon deployment. At any time, the IP address that is bound to Riak can be changed. **Note:** Riak should not be exposed openly to public interfaces without other security measures in place to limit external access to the instance (for example, firewalls and iptables). 
+When you install Riak on an {{site.data.keyword.Bluemix}} engineered server, Riak is bound to the private network IP address. Binding Riak minimizes the security risks of having an open, accessible Riak instance exposed publicly upon deployment. At any time, the IP address that is bound to Riak can be changed. **Note:** Riak should not be exposed openly to public interfaces without other security measures in place to limit external access to the instance (for example, firewalls and iptables).
 {:shortdesc}
 
 Complete the following steps to configure Riak networking to bind to a new interface.
