@@ -24,7 +24,7 @@ To change the {{site.data.keyword.mysql}} root password, use the following steps
 
 ```# UPDATE mysql.user SET Password=PASSWORD('newpassword') WHERE User='root';```
 
-4. Replace 'newpassword' with your new root password.
+4. Replace `newpassword` with your new root password.
 
 5. Restart the {{site.data.keyword.mysql}} server by using the following command:
 

@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2014, 2018
-lastupdated: "2018-01-26"
+lastupdated: "2018-11-15"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,7 +9,7 @@ lastupdated: "2018-01-26"
 
 # Configuring MongoDB networking
 
-{{site.data.keyword.Bluemix}} engineered servers with {{site.data.keyword.mongodb}} installed are configured to have {{site.data.keyword.mongodb}} bound to the private network IP address. This is by the recommendation of 10gen, and it serves to minimize the security risks of having an open, accessible {{site.data.keyword.mongodb}} instance exposed publicly upon deployment. 
+{{site.data.keyword.Bluemix}} engineered servers with {{site.data.keyword.mongodb}} installed are configured to bind {{site.data.keyword.mongodb}} to the private network IP address. This configuration is recommended gy 10gen, and it serves to minimize the security risks of having an open, accessible {{site.data.keyword.mongodb}} instance exposed publicly upon deployment. 
 {:shortdesc}
 
 ## Changing the bound interface

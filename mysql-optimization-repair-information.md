@@ -7,7 +7,7 @@ lastupdated: "2018-08-14"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# MySQL Optimization/Repair Information
+# MySQL Optimization and Repair Information
 
 ## How MySQL Uses Memory
 The following are some of the ways that the mysqld server uses memory, and associated mysqld variable names.
@@ -18,7 +18,7 @@ The following are some of the ways that the mysqld server uses memory, and assoc
 - Optimization Overview
 - Optimizing SELECT and Other Statements
 - Locking Issues
-- Optimizing Database Structure
+- Optimizing database Structure
 - Optimizing the MySQL Server
 - Disk Issues
 
@@ -32,10 +32,10 @@ The following links list some of the more common variables.
 
 ## Optimizing the mysqld variables by Ian Gilfillan
 See this article on MySQL optimization, including some guidelines on setting mysqld server variable.
-(key_buffer_size, Query cache variables, table_cache, sort_buffer, etc..)
+(key_buffer_size, Query cache variables, table_cache, sort_buffer, and so on,..)
 [Go to article ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.databasejournal.com/features/mysql/article.php/3367871){: new_window}
 
-## Repairing Database Corruption in MySQL by Ian Gilfillan
+## Repairing database Corruption in MySQL by Ian Gilfillan
 Table corruption is rare when you use {{site.data.keyword.mysql}}. However, it helps to know how to fix the problem when it occurs.
 [Go to article ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.databasejournal.com/features/mysql/article.php/3300511){: new_window}
 

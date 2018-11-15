@@ -19,7 +19,7 @@ The MMS API key and Secret key for an account can be found at the [10gen MMS web
 
 ## Configuring hosts
 
-Before you configure MMS, you need to update the API key and Secret key on the hosts. **Note:** These steps only need to be performed on a single host in the set. However, the same steps can be performed on multiple hosts to enable fail-over backup MMS agents. Only one agent in a set ever communicates information to the MMS service.
+Before you configure MMS, you need to update the API key and Secret key on the hosts. You need to complete these steps only on a single host in the set. However, you can complete the same steps on multiple hosts to enable fail-over backup MMS agents. Only one agent in a set ever communicates information to the MMS service.
 
 1. SSH to one of the hosts in the solution (network address and credentials can be found in the {{site.data.keyword.slportal_full}}.
 2. Run the following command, substituting the appropriate API and Secret keys.
@@ -44,8 +44,8 @@ After you configure your hosts and the MMS agents are restarted, you need to res
 2. Select **Hosts > Agents**.
 3. Verify that the configured agents are in the list. One agent is listed for each that was configured and restarted.
 4. To add a host to the list, select **Hosts** and click **plus (+)** .
-5. Enter the *private IP address* of the host and the port number for {{site.data.keyword.mongodb}}. The default port number for SoftLayer MongoDB solutions is 27018.
-6. Enter the database admin username and password, which can be found in **Passwords** for a device in the {{site.data.keyword.slportal}} and select **Add**.
+5. Enter the *private IP address* of the host and the port number for {{site.data.keyword.mongodb}}. The default port number for {{site.data.keyword.Bluemix_notm}} MongoDB solutions is 27018.
+6. Type the database admin user name and password, which can be found in **Passwords** for a device in the {{site.data.keyword.slportal}} and select **Add**.
   * **Important:** These credentials are mandatory.
 
 **Note:** It can take up to 30 minutes before data shows up in MMS.
