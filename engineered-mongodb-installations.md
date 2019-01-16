@@ -38,6 +38,6 @@ Ext4 is selected over Ext3. Ext3 can be slow in allocating files (or removing th
 ## Separate Journal Volume
 Under the advice of 10gen, {{site.data.keyword.cloud_notm}} uses a separate SSD volume that is mounted for the journal. This configuration is available on the higher-end engineered servers and prevents journaling from interfering with read/write operations on the data mount.
 
-## MMS Pre-installed
+## MMS Preinstalled
 
 MMS is the 10gen monitoring service that is provided free of charge for all {{site.data.keyword.mongodb}} instances. All {{site.data.keyword.cloud_notm}} engineered servers are pre-configured with the MMS agent.
