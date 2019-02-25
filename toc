@@ -38,7 +38,6 @@ Database Tools
     {: .navgroup-end}
 
     {: .navgroup id="help"}
-    {: .topicgroup}
+    get-help-and-support.md
     mysql-faqs.md
-
     {: .navgroup-end}
