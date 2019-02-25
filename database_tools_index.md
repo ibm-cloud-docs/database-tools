@@ -22,6 +22,6 @@ Complete the following tasks to get started with database tools.
 | Get Started       |
 |:------------------|
 | __ 1. Learn more about [database tools](/docs/infrastructure/database-tools/database-tools-about.html). |
-| __ 2. Learn more about [{{site.data.keyword.mongodb}}](/docs/infrastructure/database-tools/mongodb-topic-description.html), [Riak](/docs/infrastructure/database-tools/riak.html), and [{{site.data.keyword.mysql}}](/docs/infrastructure/database-tools/database-tools/mysql-security-best-practices.html). |
+| __ 2. Learn more about [{{site.data.keyword.mongodb}}](/docs/infrastructure/database-tools/mongodb-topic-description.html), [Riak](/docs/infrastructure/database-tools/riak.html), and [{{site.data.keyword.mysql}}](/docs/infrastructure/database-tools/mysql-security-best-practices.html). |
 | __ 3. Provision your virtual server, see [Getting started with virtual servers](/docs/vsi/vsi_index.html).  |
 {: caption="Table 1. Getting started with database tools" caption-side="top"}
