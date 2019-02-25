@@ -23,4 +23,4 @@ Complete the following steps to configure Riak networking to bind to a new inter
 
 ## Next Steps
 
-The changes that are made to the bind impact all previous binds to any interfaces associated with the Riak instance. After restart, the bound IP address is updated and functioning properly. If you restart the Riak instance and it does not result in a successful bind, contact [Support](/docs/get-support/howtogetsupport.html).
+The changes that are made to the bind impact all previous binds to any interfaces associated with the Riak instance. After restart, the bound IP address is updated and functioning properly. If you restart the Riak instance and it does not result in a successful bind, contact [Support](/docs/get-support?topic=get-support-getting-customer-support).
