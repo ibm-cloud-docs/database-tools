@@ -2,6 +2,8 @@
 copyright:
   years: 2014, 2018
 lastupdated: "2017-11-13"
+
+subcollection: database-tools
 ---
 
 {:shortdesc: .shortdesc}
