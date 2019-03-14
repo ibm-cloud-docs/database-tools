@@ -1,15 +1,25 @@
 ---
+
 copyright:
-  years: 2014, 2018
+  years: 2014, 2019
 lastupdated: "2018-01-26"
 
+keywords: mysql security
+
 subcollection: database-tools
+
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+
 
 # MySQL security best practices
+{: #dbt-mysql-security}
 
 Many {{site.data.keyword.BluSoftlayer_full}} users rely on {{site.data.keyword.mysql}} for their database solution. Because databases house various important and sensitive information, make sure to secure {{site.data.keyword.mysql}} databases to protect your information. Security practices for {{site.data.keyword.mysql}} are dependent upon individual needs and business requirements. However, you can use best practices for getting started. Make sure that you align with the following tips to get a head start in securing your {{site.data.keyword.mysql}} database.
 
