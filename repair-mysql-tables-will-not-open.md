@@ -1,15 +1,25 @@
 ---
+
 copyright:
-  years: 2014, 2018
+  years: 2014, 2019
 lastupdated: "2017-11-16"
 
+keywords: repair mysql table
+
 subcollection: database-tools
+
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+
 
 # Repairing MySQL tables that do not open
+{: #dbt-repair-mysql-table}
 
 {{site.data.keyword.mysql}} table repair is handled on a case-by-case basis. If you are using the default {{site.data.keyword.mysql}} table type of MyISAM (which is the default storage engine unless changed or specified differently), you have the following options:
 
