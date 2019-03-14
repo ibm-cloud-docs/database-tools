@@ -1,15 +1,25 @@
 ---
+
 copyright:
-  years: 2014, 2018
+  years: 2014, 2019
 lastupdated: "2018-11-15"
 
+keywords: engineered MongoDB, {{site.data.keyword.cloud}}, {site.data.keyword.baremetal_short}}
+
 subcollection: database-tools
+
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+
 
 # What's new with engineered MongoDB
+{: #bdt-engineered-mongodb}
 
 The following changes were made to enhance the performance of engineered {{site.data.keyword.mongodb}} installations. These changes use 10gen to give the best possible user experience with engineered servers. 10gen and {{site.data.keyword.cloud}} use various {{site.data.keyword.baremetal_short}} to serve as the platform base. <!--{{site.data.keyword.baremetal_short}} provide a consistent high performance set of available resources that cannot be matched in shared resource, multi-tenant platforms.-->  
 
@@ -40,6 +50,6 @@ Ext4 is selected over Ext3. Ext3 can be slow in allocating files (or removing th
 ## Separate Journal Volume
 Under the advice of 10gen, {{site.data.keyword.cloud_notm}} uses a separate SSD volume that is mounted for the journal. This configuration is available on the higher-end engineered servers and prevents journaling from interfering with read/write operations on the data mount.
 
-## MMS Preinstalled
+## MMS Pre-installed
 
 MMS is the 10gen monitoring service that is provided free of charge for all {{site.data.keyword.mongodb}} instances. All {{site.data.keyword.cloud_notm}} engineered servers are pre-configured with the MMS agent.
