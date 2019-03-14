@@ -1,14 +1,15 @@
 ---
 copyright:
   years: 2014, 2018
-lastupdated: "2018-01-26"
+lastupdated: "2018-08-14"
+
+subcollection: database-tools
 ---
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Configuring Riak networking
-
-When you install Riak on an {{site.data.keyword.Bluemix}} engineered server, Riak is bound to the private network IP address. Binding Riak minimizes the security risks of having an open, accessible Riak instance exposed publicly upon deployment. At any time, the IP address that is bound to Riak can be changed. **Note:** Riak should not be exposed openly to public interfaces without other security measures in place to limit external access to the instance (for example, firewalls and iptables). 
+When you install Riak on an {{site.data.keyword.Bluemix}} engineered server, Riak is bound to the private network IP address. Binding Riak minimizes the security risks of having an open, accessible Riak instance exposed publicly upon deployment. At any time, the IP address that is bound to Riak can be changed. **Note:** Do not expose Riak openly to public interfaces without other security measures in place to limit external access to the instance (for example, firewalls and iptables).
 {:shortdesc}
 
 Complete the following steps to configure Riak networking to bind to a new interface.
@@ -23,4 +24,4 @@ Complete the following steps to configure Riak networking to bind to a new inter
 
 ## Next Steps
 
-The changes made to the bind impact all previous binds to any interfaces associated with the Riak instance. After restart, the bound IP address is updated and functioning properly. If you restart the Riak instance and it does not result in a successful bind, contact [Support](/docs/get-support/getstarttssup.html).
+The changes that are made to the bind impact all previous binds to any interfaces associated with the Riak instance. After restart, the bound IP address is updated and functioning properly. If you restart the Riak instance and it does not result in a successful bind, contact [Support](/docs/get-support?topic=get-support-getting-customer-support).

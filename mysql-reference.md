@@ -2,6 +2,8 @@
 copyright:
   years: 2014, 2018
 lastupdated: "2018-01-26"
+
+subcollection: database-tools
 ---
 
 {:shortdesc: .shortdesc}
@@ -17,6 +19,6 @@ For more information about {{site.data.keyword.mysql}} optimization and server v
 * [Optimizing the mysqld variables ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.databasejournal.com/features/mysql/article.php/3367871){: new_window}
 * [MySQL Server Variables ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.mysqlperformanceblog.com/2006/06/08/mysql-server-variables-sql-layer-or-storage-engine-specific/){: new_window}
 
-For more information about repairing {{site.data.keyword.mysql}} database corruption, see [Repairing Database Corruption in MySQL ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.databasejournal.com/features/mysql/article.php/3300511){: new_window}
+For more information about repairing {{site.data.keyword.mysql}} database corruption, see [Repairing database Corruption in MySQL ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.databasejournal.com/features/mysql/article.php/3300511){: new_window}
 
 For additional information about {{site.data.keyword.mysql}}, see Ian Gilfillan's [MySQL articles ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.databasejournal.com/article.php/1474351){: new_window}

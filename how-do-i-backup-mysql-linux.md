@@ -2,6 +2,8 @@
 copyright:
   years: 2014, 2018
 lastupdated: "2018-01-26"
+
+subcollection: database-tools
 ---
 
 {:shortdesc: .shortdesc}
@@ -30,7 +32,7 @@ You use the mysqldump command to back up both individual databases and all datab
 
 ## Individual databases
 
-The following is an example command that you use to back up a database that is named _'example'_ to the directory /backup while logged in as root:
+The following code is an example command that you use to back up a database that is named _'example'_ to the directory /backup while logged in as root:
 
 `mysqldump example > /backup/example_backup.sql`
 
@@ -44,4 +46,4 @@ If you have several databases to back up, the following command backups all {{si
 
 `mysqldump -A > /backup/databases.sql(or --all-databases)`
 
-The –A switch (“-all-databases” performs the same function) dumps all databases on the server.
+The –A switch (“-all-databases” has the same function) dumps all databases on the server.

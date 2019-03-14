@@ -1,19 +1,19 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="database-tools" audience="compute" href="/docs/infrastructure/database-tools/database_tools_index.html"}
+{: .toc subcollection="database-tools" audience="compute" href="/docs/infrastructure/database-tools?topic=infrastructure/database-tools-getting-started-tutorial" path="infrastructure/database-tools"}
 Database Tools
 
     {: .navgroup id="learn"}
     database_tools_index.md
     database-tools-about.md
-    
+
     {: .topicgroup}
     MongoDB
         mongodb-topic-description.md
         mongodb-architectural-best-practices.md
         engineered-mongodb-installations.md
-         
+
     riak.md
     mysql-security-best-practices.md
     {: .navgroup-end}
@@ -22,7 +22,7 @@ Database Tools
     configure-riak-networking.md
     configure-mongodb-networking.md
     set-mongodb-monitoring-service-mms-mongodb-solution.md
-    
+
     {: .topicgroup}
     Managing MySQL
         how-do-i-backup-mysql-linux.md
@@ -31,16 +31,13 @@ Database Tools
         changing-mysql-data-directory-within-unix-environment.md
         repair-mysql-tables-will-not-open.md
     {: .navgroup-end}
-    
+
     {: .navgroup id="reference"}
     {: .topicgroup}
     mysql-reference.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
-    {: .topicgroup}
+    get-help-and-support.md
     mysql-faqs.md
-    
     {: .navgroup-end}
-
-
