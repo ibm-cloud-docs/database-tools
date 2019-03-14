@@ -1,15 +1,25 @@
 ---
+
 copyright:
-  years: 2014, 2018
+  years: 2014, 2019
 lastupdated: "2017-11-13"
 
+keywords: riak, {{site.data.keyword.BluSoftlayer_full}}
+
 subcollection: database-tools
+
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+
 
 # Riak
+{: #dbt-about-riak}
 
 Riak is a database solution for {{site.data.keyword.BluSoftlayer_full}} that is easy to use and offers pre-configured clusters for a stable and fault-tolerant environment. Basho introduces users to the benefits of using Riak on its [Product Overview ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://basho.com/products/riak-overview/){:new_window} page.
 {:shortdesc}
