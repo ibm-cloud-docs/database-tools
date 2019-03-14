@@ -1,15 +1,24 @@
 ---
+
 copyright:
-  years: 2014, 2018
+  years: 2014, 2019
 lastupdated: "2017-11-10"
 
+keywords: mysql password
+
 subcollection: database-tools
+
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # Changing a forgotten MySQL root password
+{: #dbt-change-mysql-password}
 
 To change the {{site.data.keyword.mysql}} root password, use the following steps:
 
