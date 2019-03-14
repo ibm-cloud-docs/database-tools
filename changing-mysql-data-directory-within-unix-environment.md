@@ -1,15 +1,25 @@
 ---
+
 copyright:
-  years: 2014, 2018
+  years: 2014, 2019
 lastupdated: "2018-11-15"
 
+keywords: mysql data directory, unix
+
 subcollection: database-tools
+
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+
 
 # Changing the MySQL data directory in a UNIX or similar environment
+{: #dbt-change-mysql-directory}
 
 Follow these steps to change your {{site.data.keyword.mysql}} data directory:
 
