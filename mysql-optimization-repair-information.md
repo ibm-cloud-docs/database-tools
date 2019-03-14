@@ -1,15 +1,25 @@
 ---
+
 copyright:
-  years: 2014, 2018
+  years: 2014, 2019
 lastupdated: "2018-08-14"
 
+keywords: mysql optimization, mysql repair
+
 subcollection: database-tools
+
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+
 
 # MySQL Optimization and Repair Information
+{: #dbt-optimize-repair-mysql}
 
 ## How MySQL Uses Memory
 The following are some of the ways that the mysqld server uses memory, and associated mysqld variable names.
