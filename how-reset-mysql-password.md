@@ -1,15 +1,25 @@
 ---
+
 copyright:
-  years: 2014, 2018
+  years: 2014, 2019
 lastupdated: "2018-01-26"
 
+keywords: reset mysql password
+
 subcollection: database-tools
+
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+
 
 # Resetting MySQL root user password
+{: #dbt-reset-mysql-password}
 
 Complete the following steps if you need to reset your {{site.data.keyword.mysql}} root user password:
 
