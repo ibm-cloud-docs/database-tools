@@ -1,15 +1,25 @@
 ---
+
 copyright:
-  years: 2014, 2018
+  years: 2014, 2019
 lastupdated: "2018-11-15"
 
+keywords: configure mongodb, {{site.data.keyword.mongodb}}, {{site.data.keyword.Bluemix}}
+
 subcollection: database-tools
+
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+
 
 # Configuring MongoDB networking
+{: #dbt-config-mongodb}
 
 {{site.data.keyword.Bluemix}} engineered servers with {{site.data.keyword.mongodb}} installed are configured to bind {{site.data.keyword.mongodb}} to the private network IP address. This configuration is recommended gy 10gen, and it serves to minimize the security risks of having an open, accessible {{site.data.keyword.mongodb}} instance exposed publicly upon deployment. 
 {:shortdesc}
