@@ -1,15 +1,24 @@
 ---
+
 copyright:
-  years: 2014, 2018
+  years: 2014, 2019
 lastupdated: "2018-01-26"
 
+keywords: MongoDB architectural best practices
+
 subcollection: database-tools
+
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # MongoDB - Architectural best practices
+{: #dbt-mongobd-best-practices}
 
 Use the following best practices for using {{site.data.keyword.mongodb}} in deployments on {{site.data.keyword.cloud}}. If you selected engineered servers, several of these recommendations are already implemented. 
 
