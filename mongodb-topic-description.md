@@ -1,15 +1,25 @@
 ---
+
 copyright:
-  years: 2014, 2018
+  years: 2014, 2019
 lastupdated: "2017-11-15"
 
+keywords: mongodb, nosql, {{site.data.keyword.BluSoftlayer_full}}
+
 subcollection: database-tools
+
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+
 
 # MongoDB
+{: #dbt-mongodb}
 
 {{site.data.keyword.mongodb}} is a fully featured NoSQL server that is horizontally scalable to meet your enterprise class database service needs. {{site.data.keyword.mongodb}} can be ordered at no cost in the {{site.data.keyword.BluSoftlayer_full}} shopping cart or requested with an OS reload. Currently, the following operating systems are supported:
 
