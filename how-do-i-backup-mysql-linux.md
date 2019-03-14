@@ -1,16 +1,25 @@
 ---
+
 copyright:
-  years: 2014, 2018
+  years: 2014, 2019
 lastupdated: "2018-01-26"
 
+keywords: backing up mysql, linux
+
 subcollection: database-tools
+
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 
 # Backing up MySQL in Linux
+{: #dbt-back-up-mysql-linux}
 
 ## Copy from the MySQL directory
 
