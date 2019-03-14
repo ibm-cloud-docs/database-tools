@@ -1,14 +1,25 @@
 ---
+
 copyright:
-  years: 2014, 2018
+  years: 2014, 2019
 lastupdated: "2018-08-14"
 
+keywords: configure riak, {{site.data.keyword.Bluemix}}
+
 subcollection: database-tools
+
 ---
+
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # Configuring Riak networking
+{: #dbt-riak-config}
+
 When you install Riak on an {{site.data.keyword.Bluemix}} engineered server, Riak is bound to the private network IP address. Binding Riak minimizes the security risks of having an open, accessible Riak instance exposed publicly upon deployment. At any time, the IP address that is bound to Riak can be changed. **Note:** Do not expose Riak openly to public interfaces without other security measures in place to limit external access to the instance (for example, firewalls and iptables).
 {:shortdesc}
 
