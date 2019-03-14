@@ -1,16 +1,24 @@
 ---
+
 copyright:
-  years: 2014, 2018
+  years: 2014, 2019
 lastupdated: "2018-01-26"
 
+keywords: mysql faq 
+
 subcollection: database-tools
+
 ---
 
-{:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 {:faq: data-hd-content-type='faq'}
 
 # FAQs: MySQL
+{: #dbt-faq-mysql}
 
 ## How can I monitor my MySQL server?
 {: faq}
