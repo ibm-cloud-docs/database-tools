@@ -9,7 +9,7 @@ lastupdated: "2017-11-10"
 
 # Mudando uma senha raiz do MySQL esquecida
 
-Para mudar a senha raiz do {{site.data.keyword.mysql}}, use as etapas a seguir: 
+Para mudar a senha raiz do {{site.data.keyword.mysql}}, use as etapas a seguir:
 
 1. Execute os seguintes comandos:
 
