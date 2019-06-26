@@ -5,7 +5,7 @@
 Database Tools
 
     {: .navgroup id="learn"}
-    database_tools_index.md
+    getting-started.md
     database-tools-about.md
 
     {: .topicgroup}
@@ -19,6 +19,7 @@ Database Tools
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
+    /vsi/virtual-servers-navigating-devices
     configure-riak-networking.md
     configure-mongodb-networking.md
     set-mongodb-monitoring-service-mms-mongodb-solution.md
