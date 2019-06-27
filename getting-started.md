@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2018-11-15"
+lastupdated: "2019-06-26"
 
 keywords: getting started database tools, {{site.data.keyword.cloud}}, {{site.data.keyword.virtualmachinesshort}}, {{site.data.keyword.baremetal_short}}
 
