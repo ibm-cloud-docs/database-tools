@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-06-26"
+lastupdated: "2019-08-01"
 
 keywords: getting started database tools, {{site.data.keyword.cloud}}, {{site.data.keyword.virtualmachinesshort}}, {{site.data.keyword.baremetal_short}}
 
@@ -18,7 +18,7 @@ subcollection: database-tools
 {:table: .aria-labeledby="caption"}
 
 
-# Getting started tutorial
+# Getting started with database tools
 {: #getting-started}
 
 {{site.data.keyword.cloud}} offers optional at-cost and no-cost database tool products for both {{site.data.keyword.virtualmachinesshort}} and {{site.data.keyword.baremetal_short}} deployments. However, database tool products are only available for monthly billing cycles of {{site.data.keyword.virtualmachinesshort}} and {{site.data.keyword.baremetal_short}}.
