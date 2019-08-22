@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2019
-lastupdated: "2018-01-26"
+lastupdated: "2019-08-21"
 
 keywords: set up mongodb monitoring service, mms
 
@@ -30,7 +30,7 @@ The MMS API key and Secret key for an account can be found at the [10gen MMS web
 
 ## Configuring hosts
 
-Before you configure MMS, you need to update the API key and Secret key on the hosts. You need to complete these steps only on a single host in the set. However, you can complete the same steps on multiple hosts to enable fail-over backup MMS agents. Only one agent in a set ever communicates information to the MMS service.
+Before you configure MMS, you need to update the API key and Secret key on the hosts. Complete these steps on only a single host in the set. However, you can complete the same steps on multiple hosts to enable fail-over backup MMS agents. Only one agent in a set ever communicates information to the MMS service.
 
 1. SSH to one of the hosts in the solution (network address and credentials can be found in the {{site.data.keyword.slportal_full}}.
 2. Run the following command, substituting the appropriate API and Secret keys.
