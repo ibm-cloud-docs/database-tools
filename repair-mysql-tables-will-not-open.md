@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2019
-lastupdated: "2017-11-16"
+lastupdated: "2019-08-21"
 
 keywords: repair mysql table
 
@@ -31,7 +31,7 @@ subcollection: database-tools
     *mysql> analyze table `your-tablename`
     *mysql> repair table `your-tablename`
 
-    For more information, see [table maintenance SQL ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://dev.mysql.com/doc/refman/5.0/en/table-maintenance-sql.html){: new_window}.
+For more information about table maintenance, see [table maintenance SQL ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://dev.mysql.com/doc/refman/5.0/en/table-maintenance-sql.html){: new_window}.
 4. If you are getting {{site.data.keyword.mysql}} error numbers and you are not sure what they are, you can run the perror utility to look up errors from the command line. For more information, see [perror ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://dev.mysql.com/doc/refman/5.0/en/perror.html){: new_window}.
 
     *shell> perror 13 64
