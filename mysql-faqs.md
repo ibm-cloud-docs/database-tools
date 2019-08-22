@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2019
-lastupdated: "2018-01-26"
+lastupdated: "2019-08-21"
 
 keywords: mysql faq 
 
@@ -37,4 +37,4 @@ _mytop_, a Linux application, is a near-time monitor (similar to the UNIX utilit
 
 The [{{site.data.keyword.mysql}} website ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://dev.mysql.com/doc/){: new_window} has a complete reference manual with available search capabilities.
 
-The documentation covers everything from basic installation, SQL syntax, to advanced usage like replication and clustering. Additionally, you can find translations of the reference manual in German, French, Japanese, Portuguese, and Russian.
+The documentation covers everything from basic installation, SQL syntax, to advanced usage like replication and clustering. Additionally, you can find more languages of the reference manual in German, French, Japanese, Portuguese, and Russian.
