@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2019
-lastupdated: "2018-01-26"
+lastupdated: "2019-08-21"
 
 keywords: mysql security
 
@@ -27,7 +27,7 @@ Many {{site.data.keyword.BluSoftlayer_full}} users rely on {{site.data.keyword.m
 * Delete the test account and database that were created during the initial installation of {{site.data.keyword.mysql}}.
 * Make sure that each individual {{site.data.keyword.mysql}} account password is set.
 * Grant privileges on an as-needed basis. Avoid granting global privileges unnecessarily.
-* Don't use wildcards in the host name value that is associated with accounts.
+* Don't use wildcards in the hostname value that is associated with accounts.
 * Periodically review an account's {{site.data.keyword.mysql}} users and databases to make sure that the permissions that are defined are valid.
 * Don't use passwords in the command line with the command `shell>mysql -u root - password=somepassword mysql`
 
@@ -39,4 +39,4 @@ Start with the {{site.data.keyword.mysql}} security guidelines that are based on
 
 * [{{site.data.keyword.mysql}} Version 5.7 ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://dev.mysql.com/doc/refman/5.7/en/security.html){: new_window}
 
-There are various extra resources that are not managed by { that might be of assistance. You can also find resources that are not managed by {site.data.keyword.mysql}}. Find these resources by searching for "{{site.data.keyword.mysql}} Security" in any search engine. Because third-party resources are not maintained by the makers of {{site.data.keyword.mysql}}, use this information with caution. As with all resources, use trusted sites and refer to official documentation and support sites whenever possible.
+{{site.data.keyword.mysql}} has various extra resources that are not managed by {{site.data.keyword.BluSoftlayer_full}} that might be helpful. You can also find resources that are not managed by {site.data.keyword.mysql}}. Find these resources by searching for "{{site.data.keyword.mysql}} Security" in any search engine. Because third-party resources are not maintained by the makers of {{site.data.keyword.mysql}}, use this information with caution. As with all resources, use trusted sites and refer to official documentation and support sites whenever possible. <!--I don't like this-->
