@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2019
-lastupdated: "2018-01-26"
+lastupdated: "2019-08-21"
 
 keywords: mysql reference
 
@@ -21,7 +21,7 @@ subcollection: database-tools
 # MySQL Reference
 {: #dbt-reference-mysql}
 
-For more information on how {{site.data.keyword.mysql}} uses memory, see [Memory Use MySQL 5.0 ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://dev.mysql.com/doc/refman/5.0/en/memory-use.html){: new_window}
+For more information about how {{site.data.keyword.mysql}} uses memory, see [Memory Use MySQL 5.0 ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://dev.mysql.com/doc/refman/5.0/en/memory-use.html){: new_window}
 
 For more information about {{site.data.keyword.mysql}} optimization and server variables, see the following resources:
 * [Optimization MySQL 5.0 ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://dev.mysql.com/doc/refman/5.0/en/optimization.html){: new_window}
@@ -31,4 +31,4 @@ For more information about {{site.data.keyword.mysql}} optimization and server v
 
 For more information about repairing {{site.data.keyword.mysql}} database corruption, see [Repairing database Corruption in MySQL ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.databasejournal.com/features/mysql/article.php/3300511){: new_window}
 
-For additional information about {{site.data.keyword.mysql}}, see Ian Gilfillan's [MySQL articles ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.databasejournal.com/article.php/1474351){: new_window}
+For more information about {{site.data.keyword.mysql}}, see Ian Gilfillan's [MySQL articles ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.databasejournal.com/article.php/1474351){: new_window}
