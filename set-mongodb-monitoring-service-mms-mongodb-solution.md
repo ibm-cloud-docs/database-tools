@@ -21,7 +21,7 @@ subcollection: database-tools
 # Setting up MongoDB Monitoring Service (MMS)
 {: #dbt-set-up-mongodb-mms}
 
-After you complete your {{site.data.keyword.mongodb}} solution, the hosts in the replica set can be set up to work with 10gen's free {{site.data.keyword.mongodb}} Monitoring Service (MMS). You can use this monitoring service to see a detailed technical analysis of the replicated database. You need the MMS API key and Secret key to get started, which is obtained by registering an account at the [10gen MMS registration website ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.10gen.com/mongodb-monitoring-service){: new_window}.
+After you complete your {{site.data.keyword.mongodb}} solution, the hosts in the replica set can be set up to work with 10gen's free {{site.data.keyword.mongodb}} Monitoring Service (MMS). You can use this monitoring service to see a detailed technical analysis of the replicated database. You need the MMS API key and Secret key to get started, which is obtained by registering an account at the 10gen MMS registration website. <!--http://www.10gen.com/mongodb-monitoring-service)-->
 {:shortdesc}
 
 **Note:** These MMS credentials might already be set up for you if you entered your MMS keys or your new MMS account information when you ordered your {{site.data.keyword.mongodb}} solution.
