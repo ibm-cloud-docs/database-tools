@@ -19,7 +19,7 @@ Database Tools
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
-    /vsi/virtual-servers-navigating-devices
+    /virtual-servers/virtual-servers-navigating-devices
     configure-riak-networking.md
     configure-mongodb-networking.md
     set-mongodb-monitoring-service-mms-mongodb-solution.md
