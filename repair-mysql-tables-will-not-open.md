@@ -35,6 +35,6 @@ subcollection: database-tools
     For more information, see [table maintenance SQL](http://dev.mysql.com/doc/refman/5.0/en/table-maintenance-sql.html){:external}.
 4. If you are getting {{site.data.keyword.mysql}} error numbers and you are not sure what they are, you can run the perror utility to look up errors from the command line. For more information, see [Display MySQL Error Message Information](http://dev.mysql.com/doc/refman/5.0/en/perror.html){:external}.
 
-    *<shell> perror 13 64
+    *shell> perror 13 64
     *Error code 13: Permission denied
     *Error code 64: Machine is not on the network
