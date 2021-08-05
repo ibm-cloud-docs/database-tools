@@ -13,7 +13,7 @@ subcollection: database-tools
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
@@ -21,7 +21,7 @@ subcollection: database-tools
 # Riak
 {: #dbt-about-riak}
 
-Riak is a database solution for {{site.data.keyword.BluSoftlayer_full}} that is easy to use and offers pre-configured clusters for a stable and fault-tolerant environment. Basho introduces users to the benefits of using Riak on its [Product Overview ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://basho.com/products/riak-overview/){:new_window} page.
+Riak is a database solution for {{site.data.keyword.BluSoftlayer_full}} that is easy to use and offers pre-configured clusters for a stable and fault-tolerant environment. Basho introduces users to the benefits of using Riak on its [Product page](https://riak.com/products/riak-overview/){:external} page.
 {:shortdesc}
 
 Riak is an open source, highly scalable, fault-tolerant distributed database. It is different than traditional relational databases and other NoSQL non-relational databases. Riak offers a number of unique benefits to users:
@@ -38,5 +38,5 @@ Riak is an open source, highly scalable, fault-tolerant distributed database. It
 
 For more information about Riak, see Riak product overviews and technical and support documentation on Basho's website:
 
-* [Riak Product Overview ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://basho.com/products/riak-overview/){: new_window}
+* [Riak Products](http://basho.com/products/riak-overview/){:external}
 
