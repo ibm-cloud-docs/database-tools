@@ -22,7 +22,7 @@ subcollection: database-tools
 {: #dbt-config-mongodb}
 
 {{site.data.keyword.Bluemix}} engineered servers with {{site.data.keyword.mongodb}} installed are configured to bind {{site.data.keyword.mongodb}} to the private network IP address. This configuration is recommended gy 10gen, and it serves to minimize the security risks of having an open, accessible {{site.data.keyword.mongodb}} instance exposed publicly upon deployment. 
-{:shortdesc}
+{: shortdesc}
 
 ## Changing the bound interface
 
