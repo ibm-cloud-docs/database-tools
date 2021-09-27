@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="database-tools" audience="service" href="/docs/database-tools?database-tools-getting-started-tutorial" path="database-tools"}
+{: .toc subcollection="database-tools" version="2" audience="service" href="/docs/database-tools?database-tools-getting-started-tutorial" path="database-tools"}
 Database Tools
 
     {: .navgroup id="learn"}
