@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2014, 2019
+  years: 2014, 2021
 lastupdated: "2018-08-14"
 
 keywords: configure riak, {{site.data.keyword.Bluemix}}
@@ -12,6 +12,7 @@ subcollection: database-tools
 
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
+{:important: .important}
 {:screen: .screen}
 {:new_window: target="_blank"}
 {:pre: .pre}
@@ -20,17 +21,22 @@ subcollection: database-tools
 # Configuring Riak networking
 {: #dbt-riak-config}
 
-When you install Riak on an {{site.data.keyword.Bluemix}} engineered server, Riak is bound to the private network IP address. Binding Riak minimizes the security risks of having an open, accessible Riak instance exposed publicly upon deployment. At any time, the IP address that is bound to Riak can be changed. **Note:** Do not expose Riak openly to public interfaces without other security measures in place to limit external access to the instance (for example, firewalls and iptables).
+When you install Riak on an {{site.data.keyword.Bluemix}} engineered server, Riak is bound to the private network IP address. Binding Riak minimizes the security risks of having an open, accessible Riak instance exposed publicly upon deployment. At any time, the IP address that is bound to Riak can be changed. 
 {: shortdesc}
+
+Do not expose Riak openly to public interfaces without other security measures in place to limit external access to the instance (for example, firewalls and iptables).
+{: important}
 
 Complete the following steps to configure Riak networking to bind to a new interface.
 
 ## Binding Riak to a new interface
 
 1. Go to the `riak_core` section of the `/etc/riak/app.config` file in the installation.
-2. Update the `http{}` attribute in the `riak_core` section to reflect the new IP address to which Riak is bound.<br/>`{http, [ {"127.0.0.1", 8098 } ] },`
+2. Update the `http{}` attribute in the `riak_core` section to reflect the new IP address to which Riak is bound.
+   `{http, [ {"127.0.0.1", 8098 } ] },`
 3. Locate the `/etc/vm.args` file in the installation.
-4. Edit the `-name` attribute within the `/etc/vm.args` file to reflect the new IP address:<br/>`-name riak@127.0.0.1`
+4. Edit the `-name` attribute within the `/etc/vm.args` file to reflect the new IP address:
+   `-name riak@127.0.0.1`
 5. Restart Riak to complete the binding changes.
 
 ## Next Steps
