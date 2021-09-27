@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2014, 2019
+  years: 2014, 2021
 lastupdated: "2017-11-10"
 
 keywords: mysql password
@@ -24,19 +24,35 @@ To change the {{site.data.keyword.mysql}} root password, use the following steps
 
 1. Run the following commands:
 
-```# /etc/init.d/mysqld stop```
-```# mysqld_safe --skip-grant-tables --skip-networking```
+   ```text
+   # /etc/init.d/mysqld stop
+   ```
+   {: pre}
+
+   ```
+   # mysqld_safe --skip-grant-tables --skip-networking
+   ```
+   {: pre}
 
 2. Connect to {{site.data.keyword.mysql}} with the following command:
 
-```# mysql -u root```
+   ```text
+   # mysql -u root
+   ```
+   {: pre}
 
 3. Run the following command in the {{site.data.keyword.mysql}} client:
 
-```# UPDATE mysql.user SET Password=PASSWORD('newpassword') WHERE User='root';```
+   ```text
+   # UPDATE mysql.user SET Password=PASSWORD('newpassword') WHERE User='root';
+   ```
+   {: pre}
 
 4. Replace `newpassword` with your new root password.
 
 5. Restart the {{site.data.keyword.mysql}} server by using the following command:
 
-```# /etc/init.d/mysqld start```
+   ```text
+   # /etc/init.d/mysqld start
+   ```
+   {: pre}
