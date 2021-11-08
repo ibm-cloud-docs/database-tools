@@ -15,7 +15,7 @@ toc:
   - navgroup: 
       id: learn
       topics:
-       - database_tools_index.md
+       - dgetting-started.md
        - database-tools-about.md
        - topicgroup: 
           label: MongoDB
@@ -29,6 +29,7 @@ toc:
   - navgroup: 
       id: howto
       topics:
+      - /virtual-servers/virtual-servers-navigating-devices
       - configure-riak-networking.md
       - configure-mongodb-networking.md
       - set-mongodb-monitoring-service-mms-mongodb-solution.md
@@ -39,13 +40,7 @@ toc:
           - how-reset-mysql-password.md
           - changing-forgotten-mysql-root-password.md
           - changing-mysql-data-directory-within-unix-environment.md
-          - repair-mysql-tables-will-not-open.md      
-      - topicgroup: 
-          label: Configuring SSH
-          topics: 
-          - how-do-i-force-ssh-run-non-standard-port.md
-          - how-do-i-make-my-ssh-server-only-listen-private-network.md
-          - configuring-ssh-listen-ipv6-addresses.md          
+          - repair-mysql-tables-will-not-open.md            
 
   - navgroup:
       id: reference
@@ -55,4 +50,5 @@ toc:
   - navgroup:
       id: help
       topics: 
-      -  mysql-faqs.md
+      - get-help-and-support.md
+      - mysql-faqs.md
