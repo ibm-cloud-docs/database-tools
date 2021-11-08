@@ -15,7 +15,7 @@ toc:
   - navgroup: 
       id: learn
       topics:
-       - dgetting-started.md
+       - getting-started.md
        - database-tools-about.md
        - topicgroup: 
           label: MongoDB
