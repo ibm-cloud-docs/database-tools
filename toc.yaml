@@ -8,7 +8,7 @@ toc:
     console-page: "/classic"
     product-page: "https://www.ibm.com/cloud/database-tools"
     path: database-tools
-    label: Database Tools
+    label: Database Tools for Classic
     
   entries: 
   - navgroup: 
