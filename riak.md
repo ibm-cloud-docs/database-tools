@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2014, 2022
+  years: 2014, 2023
 lastupdated: "2017-11-13"
 
 keywords: riak, {{site.data.keyword.BluSoftlayer_full}}
@@ -10,13 +10,7 @@ subcollection: database-tools
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:external: target="_blank" .external}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
-
+{{site.data.keyword.attribute-definition-list}}
 
 # Riak
 {: #dbt-about-riak}
@@ -24,7 +18,7 @@ subcollection: database-tools
 Riak is a database solution for {{site.data.keyword.BluSoftlayer_full}} that is easy to use and offers pre-configured clusters for a stable and fault-tolerant environment. For more information about Riak, see [Riak](https://riak.com){: external} page.
 {: shortdesc}
 
-Riak is an open source, highly scalable, fault-tolerant distributed database. It is different than traditional relational databases and other NoSQL non-relational databases. Riak offers a number of unique benefits to users:
+Riak is an open source, highly scalable, fault-tolerant distributed database. It is different than traditional relational databases and other NoSQL nonrelational databases. Riak offers a number of unique benefits to users:
 
 * Built to operate in highly distributed environments, such as the cloud.
 * Master-less - it has no single point of failure.
@@ -32,11 +26,10 @@ Riak is an open source, highly scalable, fault-tolerant distributed database. It
 * Makes data highly available for use in read and write-intensive web applications.
 * Scales easily and intelligently. You can easily add a node to a cluster, with no downtime.
 * Incredibly stable - many users see Riak as the "building blocks" of a cloud data infrastructure.
-* Elegantly simple design makes for a lower cost of operations.
+* Elegantly simple design makes for a smaller cost of operations.
 
 {{site.data.keyword.BluSoftlayer}} offers Riak in both the standard Riak and Riak Enterprise versions.
 
 For more information about Riak, see Riak product overviews and technical and support documentation on Basho's website:
 
 * [Riak Products](https://riak.com/products/){: external}
-
