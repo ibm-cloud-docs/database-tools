@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2014, 2021
+  years: 2014, 2023
 lastupdated: "2018-01-26"
 
 keywords: set up mongodb monitoring service, mms
@@ -10,15 +10,7 @@ subcollection: database-tools
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:note: .note}
-{:important: .important}
-{:external: target="_blank" .external}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
-
+{{site.data.keyword.attribute-definition-list}}
 
 # Setting up MongoDB Monitoring Service (MMS)
 {: #dbt-set-up-mongodb-mms}
@@ -50,17 +42,17 @@ Before you configure MMS, you need to update the API key and Secret key on the h
 
    `Starting MMS-agent:                                        [  OK  ]`
 
-
 ## Configuring the MMS Group
+{: #dbt-configure-mms-group}
 
 After you configure your hosts and the MMS agents are restarted, you need to restart the MMS Group at the 10gen MMS website.
 
 1. Log in to [MongoDB](https://www.mongodb.com/){: external}.
 2. Select **Hosts > Agents**.
 3. Verify that the configured agents are in the list. One agent is listed for each that was configured and restarted.
-4. To add a host to the list, select **Hosts** and click **plus (+)** .
+4. To add a host to the list, select **Hosts** and click **plus (+)**.
 5. Enter the *private IP address* of the host and the port number for {{site.data.keyword.mongodb}}. The default port number for {{site.data.keyword.Bluemix_notm}} MongoDB solutions is 27018.
-6. Type the database admin user name and password, which can be found in **Passwords** for a device in the {{site.data.keyword.slportal}} and select **Add**. These credentials are mandatory.
+6. Type the database admin username and password, which can be found in **Passwords** for a device in the {{site.data.keyword.slportal}} and select **Add**. These credentials are mandatory.
 
 It can take up to 30 minutes before data shows up in MMS.
 {: note}
