@@ -1,21 +1,16 @@
 ---
 
 copyright:
-  years: 2014, 2019
-lastupdated: "2019-08-21"
+  years: 2014, 2023
+lastupdated: "2018-01-26"
 
-keywords: mysql faq 
+keywords: mysql faq
 
 subcollection: database-tools
 
 ---
 
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:new_window: target="_blank"}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
-{:faq: data-hd-content-type='faq'}
+{{site.data.keyword.attribute-definition-list}}
 
 # FAQs: MySQL
 {: #dbt-faq-mysql}
@@ -37,4 +32,4 @@ _mytop_, a Linux application, is a near-time monitor (similar to the UNIX utilit
 
 The [{{site.data.keyword.mysql}} website ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://dev.mysql.com/doc/){: new_window} has a complete reference manual with available search capabilities.
 
-The documentation covers everything from basic installation, SQL syntax, to advanced usage like replication and clustering. Additionally, you can find more languages of the reference manual in German, French, Japanese, Portuguese, and Russian.
+The documentation covers everything from basic installation, SQL syntax, to advanced usage like replication and clustering. Additionally, you can find translations of the reference manual in German, French, Japanese, Portuguese, and Russian.
