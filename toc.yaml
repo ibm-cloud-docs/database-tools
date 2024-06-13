@@ -9,12 +9,11 @@ toc:
     product-page: "https://www.ibm.com/cloud/database-tools"
     path: database-tools
     label: Database Tools for Classic
-    
   entries: 
   - navgroup: 
       id: learn
       topics:
-       - getting-started.md
+       - database_tools_index.md
        - database-tools-about.md
        - topicgroup: 
           label: MongoDB
@@ -24,7 +23,6 @@ toc:
           - engineered-mongodb-installations.md  
        - riak.md
        - mysql-security-best-practices.md  
-          
   - navgroup: 
       id: howto
       topics:
@@ -38,15 +36,18 @@ toc:
           - how-reset-mysql-password.md
           - changing-forgotten-mysql-root-password.md
           - changing-mysql-data-directory-within-unix-environment.md
-          - repair-mysql-tables-will-not-open.md            
-
+          - repair-mysql-tables-will-not-open.md      
+      - topicgroup: 
+          label: Configuring SSH
+          topics: 
+          - how-do-i-force-ssh-run-non-standard-port.md
+          - how-do-i-make-my-ssh-server-only-listen-private-network.md
+          - configuring-ssh-listen-ipv6-addresses.md          
   - navgroup:
       id: reference
       topics: 
       - mysql-reference.md
-
   - navgroup:
       id: help
       topics: 
-      - get-help-and-support.md
-      - mysql-faqs.md
+      -  mysql-faqs.md

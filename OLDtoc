@@ -5,7 +5,7 @@
 Database Tools
 
     {: .navgroup id="learn"}
-    getting-started.md
+    database_tools_index.md
     database-tools-about.md
 
     {: .topicgroup}
@@ -19,7 +19,6 @@ Database Tools
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
-    /virtual-servers/virtual-servers-navigating-devices
     configure-riak-networking.md
     configure-mongodb-networking.md
     set-mongodb-monitoring-service-mms-mongodb-solution.md
@@ -39,6 +38,7 @@ Database Tools
     {: .navgroup-end}
 
     {: .navgroup id="help"}
-    get-help-and-support.md
+    {: .topicgroup}
     mysql-faqs.md
+
     {: .navgroup-end}
