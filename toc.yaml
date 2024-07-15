@@ -6,48 +6,42 @@ toc:
     audience: platform
     href: /docs/database-tools
     console-page: "/classic"
-    product-page: "https://www.ibm.com/cloud/database-tools"
+    product-page: "https://www.ibm.com/cloud/databases"
     path: database-tools
-    label: Database Tools for Classic
-  entries: 
-  - navgroup: 
+    label: Database tools for Classic
+  entries:
+  - navgroup:
       id: learn
       topics:
        - database_tools_index.md
        - database-tools-about.md
-       - topicgroup: 
+       - topicgroup:
           label: MongoDB
-          topics: 
+          topics:
           - mongodb-topic-description.md
           - mongodb-architectural-best-practices.md
-          - engineered-mongodb-installations.md  
+          - engineered-mongodb-installations.md
        - riak.md
-       - mysql-security-best-practices.md  
-  - navgroup: 
+       - mysql-security-best-practices.md
+  - navgroup:
       id: howto
       topics:
       - configure-riak-networking.md
       - configure-mongodb-networking.md
       - set-mongodb-monitoring-service-mms-mongodb-solution.md
-      - topicgroup: 
+      - topicgroup:
           label: Managing MySQL
-          topics: 
+          topics:
           - how-do-i-backup-mysql-linux.md
           - how-reset-mysql-password.md
           - changing-forgotten-mysql-root-password.md
           - changing-mysql-data-directory-within-unix-environment.md
-          - repair-mysql-tables-will-not-open.md      
-      - topicgroup: 
-          label: Configuring SSH
-          topics: 
-          - how-do-i-force-ssh-run-non-standard-port.md
-          - how-do-i-make-my-ssh-server-only-listen-private-network.md
-          - configuring-ssh-listen-ipv6-addresses.md          
+          - repair-mysql-tables-will-not-open.md 
   - navgroup:
       id: reference
-      topics: 
+      topics:
       - mysql-reference.md
   - navgroup:
       id: help
-      topics: 
+      topics:
       -  mysql-faqs.md

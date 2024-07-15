@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2022
-lastupdated: "2022-02-17"
+  years: 2017, 2024
+lastupdated: "2024-07-15"
 
 keywords: getting started database tools, {{site.data.keyword.cloud}}, {{site.data.keyword.virtualmachinesshort}}, {{site.data.keyword.baremetal_short}}
 
@@ -10,13 +10,7 @@ subcollection: database-tools
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:new_window: target="_blank"}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
-
+{{site.data.keyword.attribute-definition-list}}
 
 # Getting started with database tools
 {: #dbt-getting-started}
@@ -27,5 +21,5 @@ subcollection: database-tools
 Complete the following tasks to get started with database tools.
 
 1. Learn more about [database tools](/docs/database-tools?topic=database-tools-dbt-about).
-2. Learn more about [{{site.data.keyword.mongodb}}](/docs/database-tools?topic=database-tools-dbt-about), [Riak](/docs/database-tools?topic=database-tools-dbt-about-riak), and [{{site.data.keyword.mysql}}](/docs/database-tools?topic=database-tools-dbt-mysql-security).
-3. Provision your virtual server, see [Getting started with virtual servers](/docs/virtual-servers?topic=virtual-servers-getting-started-tutorial).
+1. Learn more about [{{site.data.keyword.mongodb}}](/docs/database-tools?topic=database-tools-dbt-about), [Riak](/docs/database-tools?topic=database-tools-dbt-about-riak), and [{{site.data.keyword.mysql}}](/docs/database-tools?topic=database-tools-dbt-mysql-security).
+1. To provision a virtual server, see [Getting started with virtual servers](/docs/virtual-servers?topic=virtual-servers-getting-started-tutorial).

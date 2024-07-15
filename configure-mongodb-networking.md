@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2023
-lastupdated: "2018-11-15"
+  years: 2014, 2024
+lastupdated: "2024-07-15"
 
 keywords: configure mongodb, {{site.data.keyword.mongodb}}, {{site.data.keyword.Bluemix}}
 
@@ -23,8 +23,11 @@ subcollection: database-tools
 
 {{site.data.keyword.mongodb}} can be configured to bound to any interface by changing the `‘bind_ip’` attribute in the `/etc/mongod.conf` file in your installation as shown:
 
+```
         # mongo.conf
         bind_ip = 0.0.0.0
+```
+{: code}
 
 This attribute changes the binding to be on all interfaces, or you can set the specific interface's IP address in this field (available from your deployment details). A restart of the {{site.data.keyword.mongodb}} instance is required.
 

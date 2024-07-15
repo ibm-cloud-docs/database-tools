@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2023
-lastupdated: "2018-08-14"
+  years: 2014, 2024
+lastupdated: "2024-07-15"
 
 keywords: mysql optimization, mysql repair
 
@@ -15,9 +15,11 @@ subcollection: database-tools
 # MySQL optimization and repair information
 {: #dbt-optimize-repair-mysql}
 
+Use the following information so optimize and repair information.
+{: shortdesc}
+
 ## How MySQL uses memory
-{: #how-mysql-uses-memory
-}
+{: #how-mysql-uses-memory}
 The following are some of the ways that the mysqld server uses memory, and associated mysqld variable names.
 
 * [Memory Use MySQL 5.0](http://dev.mysql.com/doc/refman/5.0/en/memory-use.html){: external}
@@ -30,21 +32,21 @@ MySQL optimization covers the following topics.
 
 * Optimization overview
 * Optimizing SELECT and other statements
-* Locking Issues
+* Locking issues
 * Optimizing database structure
 * Optimizing the MySQL Server
 * Disk issues
 
-[Optimization MySQL 5.0 ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://dev.mysql.com/doc/refman/5.0/en/optimization.html){: new_window}
-[Optimization MySQL 4.1 ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://dev.mysql.com/doc/refman/4.1/en/optimization.html){: new_window}
+[Optimization MySQL 5.0](http://dev.mysql.com/doc/refman/5.0/en/optimization.html){: external}
+[Optimization MySQL 4.1](http://dev.mysql.com/doc/refman/4.1/en/optimization.html){: external}
 
 ## MySQL Server variables - SQL layer or Storage Engine specific
 {: #mysql-variables-layer-or-storage-engine}
 
 The following links list some of the more common variables.
 
-* [Go to article 1 ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.mysqlperformanceblog.com/2006/06/08/mysql-server-variables-sql-layer-or-storage-engine-specific/){: external}
-* [Go to article 2 ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://dev.mysql.com/doc/refman/5.7/en/server-system-variable-reference.html){: external}
+* [Go to article 1](http://www.mysqlperformanceblog.com/2006/06/08/mysql-server-variables-sql-layer-or-storage-engine-specific/){: external}
+* [Go to article 2](https://dev.mysql.com/doc/refman/5.7/en/server-system-variable-reference.html){: external}
 
 ## Optimizing the mysqld variables
 {: #optimize-mysqlid-variables}
