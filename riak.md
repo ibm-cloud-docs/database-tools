@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2023
-lastupdated: "2017-11-13"
+  years: 2014, 2024
+lastupdated: "2024-07-15"
 
 keywords: riak, {{site.data.keyword.BluSoftlayer_full}}
 
@@ -21,7 +21,7 @@ Riak is a database solution for {{site.data.keyword.BluSoftlayer_full}} that is 
 Riak is an open source, highly scalable, fault-tolerant distributed database. It is different than traditional relational databases and other NoSQL nonrelational databases. Riak offers a number of unique benefits to users:
 
 * Built to operate in highly distributed environments, such as the cloud.
-* Master-less - it has no single point of failure.
+* Controller-less - it has no single point of failure.
 * Fault-tolerant due to its distributed nature. You can lose access to Riak nodes, but never lose data.
 * Makes data highly available for use in read and write-intensive web applications.
 * Scales easily and intelligently. You can easily add a node to a cluster, with no downtime.
