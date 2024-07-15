@@ -61,11 +61,7 @@ You have multiple options to write safety modes that govern how {{site.data.keyw
 ## Testing the deployment
 {: #dbt-testing-deployment}
 
-10gen has several tools to help you load test your deployment. A console tool, benchRun, can run operations from within a JavaScript test harness. benchRun returns operation information and latency numbers for each operation. If more detailed information is needed about the {{site.data.keyword.mongodb}} instance, consider running the `mongostat` command or MMS to monitor your deployment during the testing. For more information about these tools, see the following references:
-
-[MongoStat Overview ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://docs.mongodb.org/manual/reference/mongostat/){: new_window}
-
-[10gen's {{site.data.keyword.mongodb}} Monitoring Service ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.10gen.com/products/mongodb-monitoring-service){: new_window}
+10gen has several tools to help you load test your deployment. A console tool, benchRun, can run operations from within a JavaScript test harness. benchRun returns operation information and latency numbers for each operation. If more detailed information is needed about the {{site.data.keyword.mongodb}} instance, consider running the `mongostat` command or MMS to monitor your deployment during the testing.
 
 ## Installation
 {: #dbt-installation}
