@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2023
-lastupdated: "2018-01-26"
+  years: 2014, 2024
+lastupdated: "2024-07-15"
 
 keywords: backing up mysql, linux
 
@@ -23,9 +23,9 @@ If you shut down the mysqld service first, you can copy your databases to an exa
 
 `cp –Rp /var/lib/mysql/*.* /backup`
 
-The –R switch for the cp command means recursive, which you want to use because each database is in a separate directory. The –p switch is for permissions, which maintains the permissions of what is copied.
+The –R switch for the _cp_ command means recursive, which you want to use because each database is in a separate directory. The –p switch is for permissions, which maintains the permissions of what is copied.
 
-Generally, you shut down the mysqld service before you use the preceding method. If a database is copied while it is being used, the backup corrupts and is rendered worthless. If you are certain none of the databases are not being used at the time, you can use the preceding command.
+Generally, you shut down the mysqld service before you use the preceding method. If a database is copied while it is being used, the backup corrupts and is rendered worthless. If you are certain none of the databases are in use, you can use the preceding command.
 
 ## The mysqldump command
 {: #sbt-mysqldump}
@@ -35,7 +35,7 @@ You use the mysqldump command to back up both individual databases and all datab
 ## Individual databases
 {: #dbt-ind-databases}
 
-The following code is an example command that you use to back up a database that is named _'example'_ to the directory /backup while logged in as root:
+The following code is an example command that you use to back up a database that is named _'example'_ to the directory `/backup` while logged in as root:
 
 `mysqldump example > /backup/example_backup.sql`
 
