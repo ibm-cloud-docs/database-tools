@@ -17,7 +17,7 @@ subcollection: database-tools
 
 Follow these steps to change your {{site.data.keyword.mysql}} data directory:
 
-1. Log in to the server by using [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html){: external}, or your preferred client.
+1. Log in to the server by using PuTTY or your preferred client.
 
    If you are using a dedicated partition for the data directory, make sure to mount the new partition in place of the original data directory after you copy the data over. Mounting a new partition saves nonstandard configuration changes that some applications might not work with.
    {: note}
