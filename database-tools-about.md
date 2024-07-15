@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2023
-lastupdated: "2017-11-17"
+  years: 2014, 2024
+lastupdated: "2024-07-15"
 
 keywords: about database tools, {{site.data.keyword.cloud}}, {{site.data.keyword.virtualmachinesshort}}, {{site.data.keyword.baremetal_short}}, {{site.data.keyword.mongodb}}, riak, {{site.data.keyword.mysql}}
 
@@ -22,5 +22,5 @@ subcollection: database-tools
 * Microsoft SQL
 * {{site.data.keyword.mysql}}
 
-Your database package offerings depend on the operating system you choose.
+Your database package offerings depend on the operating system that you choose.
 {: note}
