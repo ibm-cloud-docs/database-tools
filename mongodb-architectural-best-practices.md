@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2023
-lastupdated: "2018-01-26"
+  years: 2014, 2024
+lastupdated: "2024-07-15"
 
 keywords: MongoDB architectural best practices
 
@@ -73,13 +73,15 @@ You have multiple options to write safety modes that govern how {{site.data.keyw
 You have several considerations when you install {{site.data.keyword.mongodb}} that can help create a stable and performance-oriented solution. 10gen recommends that you use CentOS (64-bit) if possible. Avoid deploying on 32-bit operating systems and Windows operating systems. These systems provide a poor deployment platform. 32-bit operating systems have file size limits that cause problems and Windows can cause performance issues if virtual memory is used by the OS to make up for a lack of RAM in your deployment. By default, {{site.data.keyword.cloud_notm}} provides CentOS 64-bit operating systems for all engineered server deployments.
 
 Additionally, make sure that you make the following alterations to the base OS installation to maximize performance:
+
 * **Set SSD Read Ahead Defaults to 16 Blocks** – SSD drives have excellent seek times that allow for shrinking the Read Ahead to 16 blocks. Spinning disks can require slight buffering so these disks are set to 32 blocks.
 * **noatime** – Noatime eliminates the need for the system write to the file system for files that are being read. Meaning that you experience faster file access and less disk wear.
 * **Turn NUMA Off in BIOS** Linux, NUMA, and {{site.data.keyword.mongodb}} generally do not work together. If you are running {{site.data.keyword.mongodb}} on NUMA hardware, it is recommended that you turning it off (running with an interleave memory policy). If you don’t, problems like massive slow downs or high system CPU time can manifest.
 * **Set ulimit** – The ulimit is set to 64000 for open files and 32000 for user processes. These ulimits prevent failures due to a loss of available file handles or user processes.
 * **Use ext4** – Ext3 is slow in allocating files (or removing them). Additionally, access within large files is poor with ext3.
 
-**Note:** By default, these alterations are set on all {{site.data.keyword.cloud_notm}} servers.
+By default, these alterations are set on all {{site.data.keyword.cloud_notm}} servers.
+{: note}
 
 It is also recommended that the Journal and Data volumes be distinct physical volumes. If the Journal and Data directories reside on a single physical volume, flushes to the Journal interrupt the access of data and provide spikes of high latency within your {{site.data.keyword.mongodb}} deployment.
 
@@ -87,6 +89,7 @@ It is also recommended that the Journal and Data volumes be distinct physical vo
 {: dbt-operations}
 
 After a {{site.data.keyword.mongodb}} deployment is promoted to production, consider the following recommendations for monitoring and performance optimization.
+
 * Make sure that the MMS agent is running on all instances of {{site.data.keyword.mongodb}}, which helps monitor the health and performance of the deployment. The MMS agent provides useful debugging data to 10gen during support interactions.
 * The `mongostat` command also provides runtime information about the performance of a {{site.data.keyword.mongobd}} node.
 
