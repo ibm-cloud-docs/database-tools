@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2023
-lastupdated: "2018-11-15"
+  years: 2014, 2024
+lastupdated: "2024-07-15"
 
 keywords: mysql data directory, unix
 
@@ -19,7 +19,7 @@ Follow these steps to change your {{site.data.keyword.mysql}} data directory:
 
 1. Log in to the server by using [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html){: external}, or your preferred client.
 
-   If you are using a dedicated partition for the data directory, make sure to mount the new partition in place of the original data directory after you copy the data over. Mounting a new partition saves non-standard configuration changes that some applications might not work with.
+   If you are using a dedicated partition for the data directory, make sure to mount the new partition in place of the original data directory after you copy the data over. Mounting a new partition saves nonstandard configuration changes that some applications might not work with.
    {: note}
 
 2. Shut down `mysqld` ({{site.data.keyword.mysql}} daemon). The process to start and stop the daemon can differ between different operating systems and distributions. {{site.data.keyword.mysql}} must be stopped during any process that directly affects the raw files.
@@ -40,7 +40,7 @@ If you use cPanel on the server, stop cPanel (TailWatch and chkservd) before the
 
    `chown mysql:mysql /var/lib/mysql-data`
 
-5. Make a final copy of the original directory to the new {{site.data.keyword.mysql}} data directory (make sure to keep the trailing / at the end of the first directory):
+5. Make a final copy of the original directory to the new {{site.data.keyword.mysql}} data directory (make sure to keep the trailing `/` at the end of the first directory):
 
    `rsync -vaP /var/lib/mysql/ /var/lib/mysql-data`
 
@@ -50,7 +50,7 @@ If you use cPanel on the server, stop cPanel (TailWatch and chkservd) before the
 
 User {{site.data.keyword.mysql}} needs to have full permission (rwx) to the database folders and read/write permission to the log, bin, data, index, and form files.
 
-Typically, database folders have a permission of 700 (drwx------) and be under ownership of mysql:mysql while in a shared hosting environment. The permission can be more liberally configurated with 755 (drwxr-xr-x) in a dedicated environment.
+Typically, database folders have a permission of 700 (drwx------) and be under ownership of mysql:mysql while in a shared hosting environment. The permission can be more liberally configured with 755 (drwxr-xr-x) in a dedicated environment.
 
 7. Update your '/etc/my.cnf' configuration file to point it to the new data directory.
 
