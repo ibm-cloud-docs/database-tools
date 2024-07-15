@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2023
-lastupdated: "2017-11-15"
+  years: 2014, 2024
+lastupdated: "2024-07-15"
 
 keywords: mongodb, nosql, {{site.data.keyword.BluSoftlayer_full}}
 
@@ -24,11 +24,7 @@ subcollection: database-tools
 
 ## Notes for a {{site.data.keyword.Bluemix_notm}} MongoDB installation
 
-* By default, mongod (the {{site.data.keyword.mongodb}} service) is bound only to your private network interface. {{site.data.keyword.mongodb}} is provisioned with a pre-configured administrative user. The username is _admin_ and the password the same as the server root password.
+* By default, mongod (the {{site.data.keyword.mongodb}} service) is bound only to your private network interface. {{site.data.keyword.mongodb}} is provisioned with a pre-configured administrative user. The username is _admin_ and the password is the same as the server root password.
 * If you order a {{site.data.keyword.mongodb}} Solution, like a replica set cluster, then your admin password is set on all {{site.data.keyword.mongodb}} servers in the solution at the end of the cluster configuration process.
 
-For more information about {{site.data.keyword.mongodb}}, see the following links.
-
-* [{{site.data.keyword.mongodb}} Document Library](http://www.mongodb.org/display/DOCS/Home){: external}
-* [{{site.data.keyword.mongodb}} Forums and open source Support](https://groups.google.com/forum/?fromgroups#!forum/mongodb-user){: external}
-* [Karl Seguin's The Little MongoDB Book (PDF)](http://openmymind.net/mongodb.pdf){: external}
+For more information about {{site.data.keyword.mongodb}}, see [{{site.data.keyword.mongodb}} Forums and open source Support](https://groups.google.com/forum/?fromgroups#!forum/mongodb-user){: external}.
