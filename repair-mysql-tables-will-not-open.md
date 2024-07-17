@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2024
-lastupdated: "2024-07-15"
+lastupdated: "2024-07-17"
 
 keywords: repair mysql table
 
@@ -17,7 +17,7 @@ subcollection: database-tools
 
 {{site.data.keyword.mysql}} table repair is handled on a case-by-case basis. If you are using the default {{site.data.keyword.mysql}} table type of MyISAM (which is the default storage engine unless changed or specified differently), you have the following options:
 
-1. You can run the myisamchk utility from a command line to check, repair, or optimize tables. Run this command while the database is not running. For more information, see [MyISAM Table-Maintenance Utility](http://dev.mysql.com/doc/refman/5.0/en/myisamchk.html){: external}.
+1. You can run the myisamchk utility from a command line to check, repair, or optimize tables. Run this command while the database is not running.
 2. The mysqlcheck command is similar in function to myisamchk, but it can be run while the database is running.
 3. If you log in to the database, you can also run SQL commands that might fix your problem.
 
