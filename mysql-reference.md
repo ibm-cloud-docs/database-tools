@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2024
-lastupdated: "2024-07-17"
+lastupdated: "2024-07-22"
 
 keywords: mysql reference
 
@@ -19,4 +19,4 @@ For more information about {{site.data.keyword.mysql}} optimization and server v
 {: shortdesc}
 
 * [Optimization MySQL 5.0](https://dev.mysql.com/doc/refman/8.4/en/optimize-overview.html){: external}
-* [MySQL server variables](http://www.mysqlperformanceblog.com/2006/06/08/mysql-server-variables-sql-layer-or-storage-engine-specific/){: external}
+* [MySQL server variables](mysql-faqs.md (line 33),http://dev.mysql.com/doc/,manual,408,The check timed out. Validate the link manually.){: external}
