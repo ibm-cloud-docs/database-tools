@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2023
-lastupdated: "2018-01-26"
+  years: 2014, 2024
+lastupdated: "2024-07-25"
 
 keywords: mysql faq
 
@@ -18,7 +18,7 @@ subcollection: database-tools
 ## How can I monitor my MySQL server?
 {: faq}
 
-_mytop_, a Linux application, is a near-time monitor (similar to the UNIX utility 'top') that specifically looks at what the {{site.data.keyword.mysql}} server is doing. _mytop_ updates every few seconds so you can get a reasonable look at your SQL performance. _mytop_ is also capable of displaying a huge amount of information. It also assumes that you're connecting to the {{site.data.keyword.mysql}} server on localhost with the root user and no password. Credentials can be changed either in the script itself or on the command line.
+`mytop`, a Linux application, is a near-time monitor (similar to the UNIX utility `top`) that specifically looks at what the {{site.data.keyword.mysql}} server is doing. `mytop` updates every few seconds so you can get a reasonable look at your SQL performance. `mytop` is also capable of displaying a huge amount of information. It also assumes that you're connecting to the {{site.data.keyword.mysql}} server on localhost with the root user and no password. Credentials can be changed either in the script itself or on the command line.
 
 ## What is my root password for MySQL?
 {: faq}
@@ -30,6 +30,4 @@ _mytop_, a Linux application, is a near-time monitor (similar to the UNIX utilit
 ## What is the best online resource for information about MySQL?
 {: faq}
 
-The [{{site.data.keyword.mysql}} website ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://dev.mysql.com/doc/){: new_window} has a complete reference manual with available search capabilities.
-
-The documentation covers everything from basic installation, SQL syntax, to advanced usage like replication and clustering. Additionally, you can find translations of the reference manual in German, French, Japanese, Portuguese, and Russian.
+The [{{site.data.keyword.mysql}} website ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://dev.mysql.com/doc/){: new_window} has a complete reference manual with available search capabilities.
