@@ -1,0 +1,55 @@
+{
+  "version": 2,
+  "title": "Database tools for Classic",
+  "introduction": "IBM Cloud® offers optional at-cost and no-cost database tool products for both Virtual Servers and Bare Metal Servers deployments. However, database tool products are only available for monthly billing cycles of Virtual Servers or Bare Metal Servers.",
+  "product_page": "https://www.ibm.com/cloud/databases",
+  "console_page": "/classic",
+  "section_topics": {
+    "links": [
+      {
+        "title": "Getting started with database tools",
+        "href": "/docs/database-tools?topic=database-tools-dbt-getting-started"
+      },
+      {
+        "title": "MongoDB",
+        "href": "/docs/database-tools?topic=database-tools-dbt-mongodb"
+      },
+      {
+        "title": "Riak",
+        "href": "/docs/database-tools?topic=database-tools-dbt-about-riak"
+      },
+      {
+        "title": "Configuring Riak networking",
+        "href": "/docs/database-tools?topic=database-tools-dbt-riak-config"
+      },
+      {
+        "title": "Configuring MongoDB networking",
+        "href": "/docs/database-tools?topic=database-tools-dbt-config-mongodb"
+      },
+      {
+        "title": "Setting up MongoDB Monitoring Service (MMS)",
+        "href": "/docs/database-tools?topic=database-tools-dbt-set-up-mongodb-mms"
+      }
+    ]
+  },
+  "section_highlights": [
+    {
+      "title": "IBM Cloud Virtual Servers on IBM Cloud Classic Infrastructure",
+      "description": "IBM Cloud Virtual Servers are public and dedicated virtual servers that provision and scale on demand, with monthly and hourly billing options.",
+      "href": "https://www.ibm.com/products/virtual-servers-classic",
+      "type": "blog"
+    },
+    {
+      "title": "IBM Cloud Bare Metal Servers on VPC Infrastructure",
+      "description": "Discover the deployment options associated with IBM Cloud Bare Metal Servers.",
+      "href": "https://www.ibm.com/products/bare-metal-servers/vpc",
+      "type": "blog"
+    }
+  ],
+  "section_devtools": {
+    "api": "https://sldn.softlayer.com/reference/softlayerapi/",
+    "cli": "/docs/cli?topic=cli-cli-virtual-servers",
+    "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/compute_vm_instance"
+  }
+}
+
