@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2024
-lastupdated: "2024-07-25"
+  years: 2014, 2025
+lastupdated: "2025-03-24"
 
 keywords: mysql faq
 
@@ -12,7 +12,7 @@ subcollection: database-tools
 
 {{site.data.keyword.attribute-definition-list}}
 
-# FAQs: MySQL
+# FAQ: MySQL
 {: #dbt-faq-mysql}
 
 ## How can I monitor my MySQL server?
