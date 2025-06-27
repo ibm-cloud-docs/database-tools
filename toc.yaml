@@ -16,6 +16,7 @@ toc:
        - database_tools_index.md
        - database-tools-about.md
        - topicgroup:
+          id: mongodb
           label: MongoDB
           topics:
           - mongodb-topic-description.md
@@ -30,13 +31,14 @@ toc:
       - configure-mongodb-networking.md
       - set-mongodb-monitoring-service-mms-mongodb-solution.md
       - topicgroup:
+          id: managing-mysql
           label: Managing MySQL
           topics:
           - how-do-i-backup-mysql-linux.md
           - how-reset-mysql-password.md
           - changing-forgotten-mysql-root-password.md
           - changing-mysql-data-directory-within-unix-environment.md
-          - repair-mysql-tables-will-not-open.md 
+          - repair-mysql-tables-will-not-open.md
   - navgroup:
       id: reference
       topics:
