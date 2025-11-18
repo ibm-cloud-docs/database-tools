@@ -1,4 +1,3 @@
----
 toc:
   properties:
     subcollection: database-tools
@@ -13,17 +12,17 @@ toc:
   - navgroup:
       id: learn
       topics:
-       - database_tools_index.md
-       - database-tools-about.md
-       - topicgroup:
+      - database_tools_index.md
+      - database-tools-about.md
+      - topicgroup:
           id: mongodb
           label: MongoDB
           topics:
           - mongodb-topic-description.md
           - mongodb-architectural-best-practices.md
           - engineered-mongodb-installations.md
-       - riak.md
-       - mysql-security-best-practices.md
+      - riak.md
+      - mysql-security-best-practices.md
   - navgroup:
       id: howto
       topics:
@@ -46,4 +45,4 @@ toc:
   - navgroup:
       id: help
       topics:
-      -  mysql-faqs.md
+      - mysql-faqs.md
