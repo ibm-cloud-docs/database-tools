@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2024
-lastupdated: "2024-07-15"
+  years: 2014, 2025
+lastupdated: "2025-11-18"
 
 keywords: MongoDB architectural best practices
 
@@ -87,7 +87,7 @@ It is also recommended that the Journal and Data volumes be distinct physical vo
 After a {{site.data.keyword.mongodb}} deployment is promoted to production, consider the following recommendations for monitoring and performance optimization.
 
 * Make sure that the MMS agent is running on all instances of {{site.data.keyword.mongodb}}, which helps monitor the health and performance of the deployment. The MMS agent provides useful debugging data to 10gen during support interactions.
-* The `mongostat` command also provides runtime information about the performance of a {{site.data.keyword.mongobd}} node.
+* The `mongostat` command also provides runtime information about the performance of a {{site.data.keyword.mongodb}} node.
 
 If either of these tools discover performance issues, sharding or indexing can help to correct these performance issues.
 
