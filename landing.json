@@ -2,7 +2,7 @@
   "version": 2,
   "title": "Database tools for Classic",
   "introduction": "IBM Cloud® offers optional at-cost and no-cost database tool products for both Virtual Servers and Bare Metal Servers deployments. However, database tool products are only available for monthly billing cycles of Virtual Servers or Bare Metal Servers.",
-  "product_page": "https://www.ibm.com/cloud/databases",
+  "product_page": "https://www.ibm.com/products/cloud-databases",
   "console_page": "/classic",
   "section_topics": {
     "links": [
@@ -52,4 +52,3 @@
     "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/compute_vm_instance"
   }
 }
-

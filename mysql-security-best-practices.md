@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2024
-lastupdated: "2024-07-15"
+  years: 2014, 2026
+lastupdated: "2026-05-20"
 
 keywords: mysql security
 
@@ -34,6 +34,6 @@ Use the following command to grant any other user with command line access to pu
 
 Start with the {{site.data.keyword.mysql}} security guidelines that are based on the version of {{site.data.keyword.mysql}} that is on your device:
 
-* [{{site.data.keyword.mysql}} Version 5.7](http://dev.mysql.com/doc/refman/5.7/en/security.html){: external}
+* [{{site.data.keyword.mysql}} Version 5.7]([http://dev.mysql.com/doc/refman/5.7/en/security.html](https://dev.mysql.com/doc/refman/5.7/en/security.html){: external}
 
 {{site.data.keyword.mysql}} has various extra resources that are not managed by {{site.data.keyword.BluSoftlayer_full}} that might be helpful. You can also find resources that are not managed by {{site.data.keyword.mysql}}. Find these resources by searching for "{{site.data.keyword.mysql}} Security" in any search engine. Because third-party resources are not maintained by the makers of {{site.data.keyword.mysql}}, use this information with caution. As with all resources, use trusted sites and refer to official documentation and support sites whenever possible.
