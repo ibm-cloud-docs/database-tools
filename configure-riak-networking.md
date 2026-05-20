@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2024
-lastupdated: "2024-07-15"
+  years: 2014, 2026
+lastupdated: "2026-05-20"
 
 keywords: configure riak, {{site.data.keyword.Bluemix}}
 
@@ -37,4 +37,4 @@ Complete the following steps to configure Riak networking to bind to a new inter
 ## Next steps
 {: abt-next-steps}
 
-The changes that are made to the bind impact all previous binds to any interfaces associated with the Riak instance. After restart, the bound IP address is updated and functioning properly. If you restart the Riak instance and it does not result in a successful bind, contact [Support](/docs/get-support?topic=get-support-using-avatar).
+The changes that are made to the bind impact all previous binds to any interfaces associated with the Riak instance. After restart, the bound IP address is updated and functioning properly. If you restart the Riak instance and it does not result in a successful bind, contact [Support](/docs/bare-metal?topic=bare-metal-bare-metal-help-and-support).
